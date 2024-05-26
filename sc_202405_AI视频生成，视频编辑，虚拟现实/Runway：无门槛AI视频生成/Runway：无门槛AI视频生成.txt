@@ -1,0 +1,15 @@
+
+
+
+            
+Runway：无门槛AI视频生成
+          
+
+
+
+
+202459Runway：无门槛AI视频生成/视频影像生成/Runway是AI影像编辑平台，它能让视频生成和编辑变得更加简便。即使是初学者也可以利用Runway轻松实现创意视频的制作Runway官网/ 文字 图片 生成视频 /官网链接：https://runwayml.com/进入官网后，选择Text/Image to Video进入文字/图片生成视频功能左下的文字输入栏中，描述你需要的场景，就能直接生成一段4s的视频 文字生成视频在Drag and drop an imagechu放入准备好的图片，同时在文字输入栏中描述场景，就能达到图文生成视频的效果高级功能除了简单的图文生成视频外，Runway在左侧的工具栏界面，还提供了可以精细化控制画面的各种功能Camera Settings中设置镜头运动General Settings中选择清晰度等基本设置Motion Brush中选中需要物体做精细化调整通过Brush智能框选和手动调整，能很快选出画面中所需元素其中Horizontal、Vertical和proximity几项参数代表在坐标轴上运动的幅度，负值反方向/ 更多功能 /除了文字/图片生成视频功能外，在Runway首页还集合了多种功能，同样值得一试/ END /
+
+
+
+

@@ -1,0 +1,15 @@
+
+
+
+            
+[TESTING]在达芬奇使用Stability AI生成AI视频
+          
+
+
+
+
+使用Stable Video 1.1 模型进行文—>图—>视频的流程A lone cowboy rides his horse across an open plain at beautiful sunset, soft light, warm colors.Google演示最新Veo模型时使用的提示词虽然比起Sora或者Veo这种 文—>视频 的模型是差点意思不过，如果你已经生成了一张还不错的图片，直接使用图—>视频，依然可以为你带来不错的效果。如何在达芬奇中使用最新的SD3.0模型进行文生图，在这里查看：[UPDATED] 在达芬奇使用AI文生图Stability AI 1.0插件，免费领取API额度~支持拥抱开源和AI人工智能，致力于AI人工智能的实际应用。所有软件均为开源且免费。如果您支持我的工作，欢迎成为赞助者。
+
+
+
+

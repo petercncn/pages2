@@ -1,0 +1,15 @@
+
+
+
+            
+Blender: AI动作捕捉+ARP数字人绑定
+          
+
+
+
+
+上次提到用国内网站pxmotion.com,把视频中的人物动作映射到3D数字人身上。体验了几个效果后，觉得不是很理想，又收集了一波AI动作捕捉的AI网站。1.  Plaskhttps://motion.plask.ai/操作步骤也很简单：上传视频，拖拽到指定模型上，预览动画，生成FBX动画。2. ROKOKOhttps://rokoko.com/上传视频后，可以看到一个视频编辑器，对不需要的视频段直接减掉。生成FBX动画后右上角有个studio编辑器需要安装在编辑器里修复手部和脚步动作。3. MOOTION这个在上一篇中有介绍4. mixamo这个最简单，也不做介绍了。最后不管哪个软件，导出的动作最终还是需要在Blender的动画编辑器中进行修补和清理，是一个非常细的工作。参考地址：https://www.bilibili.com/video/BV1bu4y1g7Vs/?p=4&spm_id_from=333.880.my_history.page.click&vd_source=f2fa9cc92357f98acbb1893d0325b1e1ake-A-Characthttps://www.bilibili.com/video/BV1bu4y1g7Vs/?p=4&spm_id_from=333.880.my_history.page.click&vd_source=f2fa9cc92357f98acbb1893d0325b1e1er扫码加入星球后可添加作者微信，小伙伴们的支持就是我写作的动力😄关于作者做一只爬的最久的乌龟，保持学习保持好奇，即使慢一点，遇到一点困难，只要最后能到达终点，又有什么关系呢。毕竟人生没有白走的路，每一步都算数。
+
+
+
+

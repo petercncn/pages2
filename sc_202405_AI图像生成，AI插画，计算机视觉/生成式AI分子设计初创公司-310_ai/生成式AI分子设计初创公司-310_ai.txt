@@ -1,0 +1,15 @@
+
+
+
+            
+生成式AI分子设计初创公司-310.ai
+          
+
+
+
+
+最近出一个系列，介绍一些计算化学、材料学以及药物研发领域的初创公司。集中介绍他们的创始人背景、产品形态和商业模式。310.ai于2023年2月成立，总部位于加州旧金山，该公司希望通过生成式AI设计生物大分子。公司创始人认为生成式AI与生物科学的结合会使改变人类健康医疗的重要事件。该公司的CEO与联合创始人为Koosh Azimian，本科毕业于伊朗 Sharif University of Technology, 硕士毕业于美国Rutgers大学CS专业，博士就读于UC San Diago CS专业，并于2010年退学。2011年创立一家演唱会票务相关公司Concertboom，后任职于Facebook AI部门。CTO与另一个联合创始人Kathy Y. Wei,是生物学背景，她的博士毕业于Stanford大学，在Univeristy of Washington与UC Berkeley做两期博后研究。后来离开学术界进入Amgen工作，负责蛋白质设计。公司官网没有产品的详细介绍，但是从他们举办的DevDays直播可以看到产品的一些细节。他们在开发一套用指令行操控的蛋白质设计界面。310.ai收到了三笔投资(Cota Capital, 越南 Ascend Vietnam Ventures基金和E^14 )，总金额未公开。
+
+
+
+

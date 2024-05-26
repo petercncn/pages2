@@ -1,0 +1,15 @@
+
+
+
+            
+全自动ai生成视频MoneyPrinterTurbo
+          
+
+
+
+
+1、使用Git克隆项目，或者去GitHub官网下载项目文件，也可以后台获取，文章所需工具和环境已经给大家打包好了。项目地址：https://github.com/harry0703/MoneyPrinterTurbo?tab=readme-ov-file2、使用Git克隆项目，并安装依赖库git clone https://github.com/harry0703/MoneyPrinterTurbo.gitcd MoneyPrinterTurbopip install -r requirements.txtgit clone https://github.com/harry0703/MoneyPrinterTurbo.git：git clone命令用于从远程代码仓库中复制（克隆）整个项目到本地计算机上。cd MoneyPrinterTurbo：cd命令用于更改当前工作目录。在这里，将你的工作目录更改为刚刚克隆的"MoneyPrinterTurbo"项目的根目录。pip install -r requirements.txt：pip install命令用于使用Python包管理器（pip）安装指定的Python包。-r requirements.txt 参数指定了要安装的包列表，其中包列表在本项目根目录下requirements.txt的文本文件中。这个命令将安装requirements.txt文件中列出的所有依赖包，通常这些包是项目所需的额外Python库或模块。3、安装 ImageMagick先将项目配置文件config.example.toml更改为config.toml然后修改配置文件config.toml 中的 imagemagick_path 为你的实际安装路径这里根据项目中提到的 ImageMagick下载链接好像已经失效了，给大家找了一个安装包地址，也可以后台获取下载链接：https://www.softmall.net/apps/3003在生成视频前需要对模型的密钥配置，根据下方如图配置密钥申请月之暗月地址：https://platform.moonshot.cn/console/api-keys  将密钥填入配置文件中注册https://www.pexels.com/api/获取您的API密钥。将申请的api填入配置文件中，模型选择月之暗面配置好后双击执行webui.bat批处理脚本启动项目文案内容可以让ai生成，也可以自定义运行效果：后台回复MoneyPrinterTurbo获取文章项目和环境
+
+
+
+

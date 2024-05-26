@@ -1,0 +1,15 @@
+
+
+
+            
+如何识别“深度伪造”视频？
+          
+
+
+
+
+深度伪造技术（Deepfake）是一种利用深度学习和人工智能技术来合成或修改图像、音频和视频的技术，能够创造出完全虚构的内容，从而带来潜在风险，特别是大量名人和政治人物的伪造视频，可能导致虚假新闻的传播。为了让公众更好地辨别这类数字欺骗，本文将介绍4种检测图像或视频是否为深度伪造的方法。                                          （图源：视觉中国）01媒体来源验证使用 InVID或YouTube DataViewer 等工具进行媒体来源验证与视频缩略图分析，验证传播内容的可信度。https://www.invid-project.eu/（图源：InVID网站截图）https://citizenevidence.amnestyusa.org/（图源：YouTube DataViewer网站截图）02元数据分析使用 ExifTool 和 FotoForensics 等工具检查可疑图像的元数据，例如创建日期或相机设置。https://fotoforensics.com/（图源：FotoForensics网站截图）03反向图像/视频搜索使用 Google Images或TinEye工具进行反向图像或视频搜索，识别内容来源，以发现伪造行为。https://tineye.com/（图源：TinEye网站截图）利用 Deepware分析视频中的人为造假迹象，并生成可信度评估。https://deepware.ai/（图源：Deepware网站截图）04面部识别和微表情分析使用 Azure Face API 等工具分析视频中的面部特征并识别视频中的不自然之处。https://azure.microsoft.com/en-us/pricing/details/cognitive-services/face-api/（图源：Azure Face API网站截图）利用 Affectiva 等平台分析人物微表情，帮助检测视频中人物不自然的面部动作或情绪。https://www.affectiva.com/（图源：Affectiva网站截图）责编｜枫司声明｜银河实验室仅提供信息分享，具体解释权归各工具网站所有
+
+
+
+

@@ -1,0 +1,34 @@
+像打字一样飞速生成 AI 图像
+
+生成式人工智能一日千里。
+近年来，人工智能世界在图像生成领域取得了显着的进步，提供了大量在线工具，使用户能够使用机器学习算法创建令人惊叹且复杂的图像。
+自出现以来，文生图一直在不断高速发展，其最明显的体现就是图像生成质量越来越高，还有很重要的一点就是出图速度的大幅度提升。
+早上，看到一款应用，实在让人感到震惊！
+
+https://fastsdxl.ai
+这款应用可以实时，对的！实时，让你像打字一样，快速的、实时地，生成人工智能图像。
+FastSDXL可能是其中最令人惊叹的，因为它的速度快如闪电。
+用户边打字，边生成图片，秒出高清大图。
+它实时生成图像的速度几乎比您输入文本的速度还要快！
+
+据媒体介绍，SDXL-Lightning模型是基于Stability AI的stable-diffusion-xl-base-1.0模型开发的，采用了一种结合渐进式和对抗式蒸馏的扩散蒸馏方法进行提炼。
+渐进式蒸馏保留了原模型的图像风格和种类，而对抗式蒸馏则提升了图像生成的质量。
+这两种方法的结合使得SDXL-Lightning在快速出图和高质量、多样化之间找到了平衡点，即使在快速出图的同时，也能保持较高的图像质量，并且覆盖广泛的图像模式。
+
+A fish on a bicycle, colorful art
+
+A close-up of a charming lady with sunglasses
+
+Furniture design for a professor's home office 
+with beautiful plants and flowers
+这个项目是由字节跳动开发的，很多媒体都给予了报道：
+字节跳动发布SDXL-Lightning开源模型：
+秒出高清大图，出图速度提升 10 倍！
+AI 图像生成工具很强大，但它们只是工具。
+要有效地利用这些工具，关键在于制定精确有效的提示。
+
+祝福您五一假期快乐！
+
+Johnnie Walker via fastsdxl.ai
+
+
