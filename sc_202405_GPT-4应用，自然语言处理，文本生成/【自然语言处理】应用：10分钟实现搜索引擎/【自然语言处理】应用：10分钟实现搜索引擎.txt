@@ -1,0 +1,15 @@
+
+
+
+            
+【自然语言处理】应用：10分钟实现搜索引擎
+          
+
+
+
+
+本文利用20Newsgroup这个数据集作为Corpus(语料库)，用户可以通过搜索关键字来进行查询关联度最高的News，实现对文本的搜索引擎：1. 导入数据集from sklearn.datasets import fetch_20newsgroups newsgroups = fetch_20newsgroups() print(f'Number of documents: {len(newsgroups.data)}')print(f'Sample document:\n{newsgroups.data[0]}')2. 向量化单词from sklearn.feature_extraction.text import CountVectorizercount = CountVectorizer()count.fit(newsgroups.data)show_vocabulary(count) print(f'Size of vocabulary: {len(count.get_feature_names_out())}') def show_vocabulary(vectorizer):    words = vectorizer.get_feature_names_out()     print(f'Vocabulary size: {len(words)} words')     # we can print ~10 words per line    for l in np.array_split(words, math.ceil(len(words) / 10)):        print(''.join([f'{x:<15}' for x in l]))3. 搜索引擎#将语料库进行转化corpus_bow = count.transform(newsgroups.data) #提供用户输入，对输入内容进行转化为BoW - Bag of wordquery = input("Type your query: ")query_bow = count.transform([query]) from sklearn.metrics.pairwise import cosine_similarity #比较输入内容与语料库中的相似度similarity_matrix = cosine_similarity(corpus_bow, query_bow)print(f'Similarity Matrix Shape: {similarity_matrix.shape}') 得到Similarity_matrix一共有N行，表示语料库中的文档数。还有一列，代表相似度系数。第K行的相似度系数，代表用户输入的文本与语料库中第K个文档的相似程度。我们对相似度矩阵进行排序：similarities = pd.Series(similarity_matrix[:, 0])similarities.head(10)那么和用户输入最相关的文档就是第一个了！print('Best document:')print(newsgroups.data[top_10.index[0]])结论：本文利用Cosine_similarity比较文档的相似度，从语料库找出最佳匹配的文档。如果对单词的向量化，BoW概念有问题可以看下我的另一篇文章。CSDN下面一篇文章我会具体分析Cosine_similarity的原理，敬请关注！
+
+
+
+

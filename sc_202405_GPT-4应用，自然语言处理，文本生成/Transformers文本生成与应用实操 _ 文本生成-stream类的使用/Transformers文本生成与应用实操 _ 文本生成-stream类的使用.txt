@@ -1,0 +1,15 @@
+
+
+
+            
+Transformers文本生成与应用实操 | 文本生成-stream类的使用
+          
+
+
+
+
+专题"Transformers文本生成与应用实操"将让你全面学习使用Transformers库进行中文文本生成的过程。从理解并应用Tokenizer，了解并掌握文本生成策略，使用LLM (Language Model Prompting)进行提示引导，到灵活使用Pipeline接口实现模型的推断，我们都将进行深入探讨。同时，我们会以创建一个基于web的聊天机器人项目来实践应用这些知识。期待你的加入，一起按步就班，从理论到实战，全面提升自己的技术实力！在这个教程中，我们将探讨如何使用 transformers 库的流式处理功能来实现实时文本生成。首先，我们会简单介绍流媒体的基本概念，然后通过两个具体的示例展示其应用：一个基础示例使用 TextIteratorStreamer，另一个进阶示例展示如何在多线程环境中使用流式生成文本。基本概念在 transformers 库中，流式处理允许我们逐步接收模型的输出，而不是一次性获取整个生成文本。这对于处理长文本或实时交互场景特别有用。流媒体的实现通常依赖于一个支持特定方法的 streamer 对象，这些方法包括 put()（用于接收新的文本片段）和 end()（标志生成结束）。示例 1: 使用 TextIteratorStreamer 的基础示例在这个示例中，我们将使用 TextIteratorStreamer 类来实现文本的逐步输出。这个类特别适合于需要逐字（或逐句）处理输出的场景。首先，我们需要定义 TextIteratorStreamer 类（这里假设该类已正确实现）。接下来是使用这个类的示例代码：from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStreamerclass TextGenerator:    def __init__(self, model_name):        self.tokenizer = AutoTokenizer.from_pretrained(model_name)        self.model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True)    def generate_text(self):        # 定义流媒体对象        streamer = TextIteratorStreamer(self.tokenizer)        # 生成文本的参数        inputs = self.tokenizer("Hello, world!", return_tensors="pt")        # 启动生成过程        self.model.generate(**inputs, streamer=streamer, max_new_tokens=50)                # 从流媒体中获取输出        for output in streamer:            print(output)# 使用示例tg = TextGenerator("gpt2")tg.generate_text()示例 2: 使用多线程进行流式文本生成在这个高级示例中，我们将创建一个方法stream_generate_answer，它使用线程来异步生成文本。这适合需要后台处理生成任务的应用。from transformers import AutoModelForCausalLM, AutoTokenizer, TextIteratorStreamerimport threadingclass AdvancedTextGenerator:    def __init__(self, model_name):        self.tokenizer = AutoTokenizer.from_pretrained(model_name)        self.model = AutoModelForCausalLM.from_pretrained(model_name, trust_remote_code=True)    def _get_chat_input(self):        # 这里简化输入，实际使用时可以是更复杂的处理流程        return self.tokenizer.encode("Hello, world!", return_tensors="pt")    def stream_generate_answer(self):        streamer = TextIteratorStreamer(self.tokenizer)        input_ids = self._get_chat_input()        generation_kwargs = {            'input_ids': input_ids,            'max_new_tokens': 512,            'temperature': 0.7,            'repetition_penalty': 1.0,            'do_sample': True,            'streamer': streamer,        }        thread = threading.Thread(target=lambda: self.model.generate(**generation_kwargs))        thread.start()                try:            yield from streamer        except StopIteration:            pass        finally:            thread.join()            def process_generated_text(generator):    for output in generator:        print(output)# 使用示例atg = AdvancedTextGenerator("gpt2")generator = atg.stream_generate_answer()process_generated_text(generator)通过这两个示例，我们展示了如何使用 transformers 库的流媒体功能来逐步生成和处理文本，使应用能够更加灵活地响应用户需求。今天就讲到这里，如果有问题需要咨询，大家可以直接留言或扫下方二维码来知识星球找我。也可以添加 happyzjp 微信受邀加入学习社群，我们会尽力为你解答。AI资源聚合站已经正式上线，该平台不仅仅是一个AI资源聚合站，更是一个为追求知识深度和广度的人们打造的智慧聚集地。通过访问 AI 资源聚合网站 https://ai-ziyuan.techwisdom.cn/，你将进入一个全方位涵盖人工智能和语言模型领域的宝藏库。作者：路条编程（转载请获本公众号授权，并注明作者与出处）
+
+
+
+

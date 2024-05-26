@@ -1,0 +1,15 @@
+
+
+
+            
+【语音识别】智能语音识别门禁系统matlabd代码
+          
+
+
+
+
+1 简介本发明提供一种基于语音识别的智能家居门禁系统,包括:门禁设备;中央控制器,用于接收用户指令,根据用户指令控制其他模块工作;采集模块,用于采集用户语音信号;处理模块,对采集的用户语音信号进行识别处理,将识别结果反馈到中央控制器;执行模块,用于根据指令执行所述门禁设备的解锁或上锁操作.本发明通过采集用户的语音信号,对语音信号进行识别处理,将获取的用户语音信号和预存的语音信号进行匹配,当匹配成功时控制门禁系统执行上锁或解锁操作,识别准确度高,安全性能强;同时,能够释放用户双手,操作便捷,提高用户体验.2 部分代码function commandrobot() trai_pairs=30; out_neurons=5; hid_neurons=6; in_nodes=13; eata=0.1;emax=0.001;q=1;e=0;lamda=.7;  t=1; load backp.mat W V; recObj = audiorecorder; Fs=8000; Nseconds = 1;while(1)fprintf('say any word immediately after hitting enter');input('');recordblocking(recObj, 1);x = getaudiodata(recObj);[kk,g] = lpc(x,12);Z=(kk); Z=double(Z); p1=max(Z); Z=Z/p1;for p=1:trai_pairs        z=transpose(Z(p,:));%  calculate output   y=(tansig(V*(z)));   o=(tansig(W*(y)));   breakend      b=o(1);    c=o(2);    d=o(3);    e=o(4);    f=o(5);    a= max(o);    if (b==a )    display('AHEAD');    elseif (c== a)        display('STOP');    elseif (d== a)        display('BACK');    elseif (e==a)        display('LEFT');    elseif (f==a)        display('RIGHT');    endend3 仿真结果4 参考文献[1]杨世龙, 徐秉龙, 王亚金,等. 一种智能语音识别的智能门禁系统:, CN209842718U[P]. 2019.
+
+
+
+

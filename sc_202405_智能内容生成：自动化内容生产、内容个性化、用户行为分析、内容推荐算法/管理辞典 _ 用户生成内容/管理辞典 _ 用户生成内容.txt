@@ -1,0 +1,41 @@
+管理辞典 _ 用户生成内容
+如果你喜欢我们的文章点击蓝字 右上角设置 设为星标 欢迎文末留言
+
+
+
+
+  
+「释义」
+互联网术语，特指用户原创内容，即用户将自己原创的内容通过互联网平台进行展示或者提供给其他用户。
+
+Internet terminology, specifically refers to user-generated content, that is, users display their own original content through the Internet platform or provide it to other users.
+
+「应用场景」
+当 Erik Cassel 和David Baszuck推出在线平台 Roblox 的前身时，他们的用户是朋友、家人以及通过 Google 广告招募的大约 100 名技术爱好者。从一开始，他们的愿景就是建立一个全新的人类共同体验类型——不亚于实现人类互动的下一阶段。他们设想了一个在线空间，来自世界各地的人们可以与朋友分享经验，就像他们亲自体验一样。
+
+When Erik Cassel and David Baszuck launched the precursor of online platform Roblox, their users were friends, family members, and about 100 tech enthusiasts they’d recruited via Google ads. Their vision from the start was to build an entirely new category of human coexperience—nothing less than the realization of the next phase of human interaction. They imagined an online space where people from anywhere in the world could share experiences with friends, just as they would in person.
+
+他们实现这一目标的核心理念是一个由创建者社区支持的平台，使用者在其上可以构建一切。在 Roblox 推出 16 年后，他们仍然专注于“由社区创造”而不是“为社区创造”。但现在他们拥有近 5000 万日活跃用户和数百万开发者构建体验。
+
+Their core idea to get there was a platform supported by a community of creators who built everything on it. Sixteen years after the launch of Roblox, their focus on creation by the community  (instead of for it) remains. But now they have nearly 50 million active daily users and millions of developers building experiences.
+
+
+本文节选自The CEO of Roblox on Scaling Community-Sourced Innovation
+大卫·巴斯祖基（ David Baszucki）| 文   
+徐新玉 丨编辑 
+
+近期管理辞典
+管理辞典 | 多样性清洗 
+管理辞典 | 5C挑战  
+管理辞典 | BEAN模式    
+
+
+关注「哈佛商业评论Lab」小程序
+-口袋里的管理新知分享平台-
+
+
+
+
+
+
+点 在看 让管理新知传的更远

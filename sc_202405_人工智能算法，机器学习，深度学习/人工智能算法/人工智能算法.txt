@@ -1,0 +1,15 @@
+
+
+
+            
+人工智能算法
+          
+
+
+
+
+一、基础算法1) CNN2）RNN3）LSTM4）Transformer二、CV算法1）语音识别算法2）数字人算法三、NLP算法1）Bert2）GPT3）T5四、评估1) 文本生成评估指标机器翻译评估标准：BLEU, METEOR2）ASR3）TTS
+
+
+
+

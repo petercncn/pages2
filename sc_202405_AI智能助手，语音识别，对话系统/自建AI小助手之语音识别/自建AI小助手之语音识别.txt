@@ -1,0 +1,15 @@
+
+
+
+            
+自建AI小助手之语音识别
+          
+
+
+
+
+写在前面本文关注于使用层面，主要分享如何快速上手自建自己的语音识别服务，而不会关注更底层的原理层面，如有需要，后续再写专文研究。具体效果实例：什么是语音识别语音识别，通常称为自动语音识别（AutomaticSpeechRecognition，ASR），主要是将人类语音中的词汇内容转换为计算机可读的输入，一般都是可以理解的文本内容，也有可能是二进制编码或者字符序列。但是，我们一般理解的语音识别其实都是狭义的语音转文字的过程，简称 语音转文本识别（Speech-To-Text,STT）更合适，这样就能与 语音合成（Text-To-Speech,TTS）对应起来。简单来说，就是将语音转变为可读的文字。模型测试测试环境Linux (ubuntu 20.04)Standard D4s v3 (4 vcpus, 16 GiB memory)模型：阿里达摩院ModelScope环境安装安装后，可快速使用阿里云达摩院其他模型第一步：安装AnacondaAnaconda是一个开源的 Python 发行版本，用来管理管理不同的包，切换不同的环境下载anaconda.shcurl --output anaconda.sh https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh安装anaconda.shbash anaconda.sh遇见如下信息按Enter继续bash anaconda.shWelcome to Anaconda3 2022.05In order to continue the installation process, please review the licenseagreement.Please, press ENTER to continue>>> 阅读完协议并同意确认安装位置，并按Enter继续等待几分钟后将看到以下信息，输入yes并按Enter继续出现如下信息代表安装完成注意：关闭当前命令行，并重新打开，刚刚安装和初始化Anaconda设置才可以生效。重连后看到用户名前出现（base）即算成功第二步：执行如下命令为modelscope library创建对应的python环境conda create -n modelscope python=3.7conda activate modelscope出现下图即为安装成功第三步：安装Tensorflow# 仅支持 CPU 的版本pip install --upgrade tensorflow==1.15 -i https://pypi.tuna.tsinghua.edu.cn/simple出现下图即为安装成功语音模型安装模型文件：Paraformer语音识别-中文-通用-16k-离线-large-pytorch其他模型可自行在modelscope选择：ModelScope 魔搭社区第一步：安装 PyTorch这是一个开源的 Python 机器学习库，基于 Torch，用于自然语言处理等应用程序。pip install torch torchvision torchaudio -i https://pypi.tuna.tsinghua.edu.cn/simple第二步：下载并安装ModelScope librarypip install setuptools-scm  -i https://pypi.tuna.tsinghua.edu.cn/simplepip install modelscope -i https://pypi.tuna.tsinghua.edu.cn/simplepip install "modelscope[audio]" -f https://modelscope.oss-cn-beijing.aliyuncs.com/releases/repo.html -i https://pypi.tuna.tsinghua.edu.cn/simple出现如下信息即算安装成功，有部分异常无需关心注意：当前大部分语音模型需要在Linux环境上使用，并且推荐使用python3.7 + tensorflow 1.x的组合。第三步：验证创建test.py文件并执行命令python test.pyfrom modelscope.pipelines import pipelinefrom modelscope.utils.constant import Tasksp = pipeline('auto-speech-recognition', 'damo/speech_paraformer-large_asr_nat-zh-cn-16k-common-vocab8404-pytorch')result = p('https://isv-data.oss-cn-hangzhou.aliyuncs.com/ics/MaaS/ASR/test_audio/asr_example_zh.wav',)print(result)出现ModuleNotFoundError: AutomaticSpeechRecognitionPipeline: No module named 'funasr'异常可使用如下方式解决git clone https://github.com/alibaba/FunASR.git && cd FunASRpip install -e ./获取推理结果识别下方二维码，加群参与更多交流关注公众号：binary技术小站，免费无限制不限量体检AI畅聊
+
+
+
+

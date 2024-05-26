@@ -1,0 +1,15 @@
+
+
+
+            
+Transformers文本生成与应用实操 | 文本生成的预处理
+          
+
+
+
+
+专题"Transformers文本生成与应用实操"将让你全面学习使用Transformers库进行中文文本生成的过程。从理解并应用Tokenizer，了解并掌握文本生成策略，使用LLM (Language Model Prompting)进行提示引导，到灵活使用Pipeline接口实现模型的推断，我们都将进行深入探讨。同时，我们会以创建一个基于web的聊天机器人项目来实践应用这些知识。期待你的加入，一起按步就班，从理论到实战，全面提升自己的技术实力！在自然语言处理（NLP）任务中，文本预处理是获取高效模型性能的关键步骤。本教程将介绍如何使用Transformers库中的Tokenizer进行文本预处理。自然语言预处理简介文本数据的处理主要通过Tokenizer完成。Tokenizer用于将文本分解成tokens，将这些tokens转换成数字，再转换成张量，这样才能被模型使用。下面我们将通过一些示例来演示如何使用Tokenizer进行文本预处理。Tokenizer的使用首先，我们通过AutoTokenizer.from_pretrained()方法加载一个预训练的tokenizer。以下是一个如何实现此步骤的示例：from transformers import AutoTokenizerdef auto_token():    tokenizer = AutoTokenizer.from_pretrained("openbmb/MiniCPM-2B-dpo-bf16")    encoded_input = tokenizer(["你是谁", "我是路条编程", "你好啊"])    print("encoded_input:" + str(encoded_input))    print("decode:" + str(tokenizer.decode(encoded_input["input_ids"])))# 输出示例:# encoded_input: {'input_ids': [[1, 95320, 13600, 96306], [1, 79178, 95644, 95548, 18744], [1, 95320, 23523, 96240]], 'attention_mask': [[1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1]]}# decode: <s> 你是谁 <s> 我是路条编程 <s> 你好啊主要返回对象tokenizer返回的字典包含以下几个重要对象：input_ids：每个token对应的索引。attention_mask：指示模型是否应关注某个token。token_type_ids：标识token属于哪个序列（在多序列输入的情况下）。参数详解文本传递参数你可以将单个字符串或字符串数组传递给tokenizer：tokenizer("你是谁")tokenizer(["你是谁", "我是路条编程", "你好啊"])padding_token（填充）不同句子的长度可能不同，我们通过在短句子中添加padding token来解决这一问题。如果使用padding=True，需要确保已设置pad_token。注意，使用padding=True进行填充时，需要设置一个填充令牌（pad_token）将已有的特殊令牌指定为填充令牌：如果tokenizer已经有了结束符（EOS）令牌或其他特殊令牌，你可以将其设置为填充令牌。这种方法适用于那些已经定义了结束符令牌的预训练模型。例如，对于很多基于Transformer的模型，结束符令牌可以作为填充令牌使用。tokenizer.pad_token = tokenizer.eos_token向tokenizer添加一个新的填充令牌：如果你的模型或数据处理策略需要一个明确的填充令牌，且现有的特殊令牌不适合用作填充令牌，你可以添加一个新的填充令牌。这通常通过调用add_special_tokens方法完成。tokenizer.add_special_tokens({'pad_token': '[PAD]'}tokenizer.pad_token = tokenizer.eos_token  # 使用EOS令牌作为填充令牌tokenizer(["你是谁", "我是路条编程", "你好啊"], padding=True)truncation（截断）对于过长的序列，我们可以通过设置truncation=True将其截断到模型可以接受的长度：tokenizer(["你是谁", "我是路条编程", "你好啊"], padding=True, truncation=True)查看填充和截断概念指南，了解更多有关填充和截断参数的信息。return_tensors（返回张量）最后，tokenizer可以返回直接输入到模型的张量。设置return_tensors参数为pt（PyTorch）或tf（TensorFlow）：tokenizer(["你是谁", "我是路条编程", "你好啊"], padding=True, truncation=True, return_tensors="pt")今天就讲到这里，如果有问题需要咨询，大家可以直接留言或扫下方二维码来知识星球找我。也可以添加 happyzjp 微信受邀加入学习社群，我们会尽力为你解答。AI资源聚合站已经正式上线，该平台不仅仅是一个AI资源聚合站，更是一个为追求知识深度和广度的人们打造的智慧聚集地。通过访问 AI 资源聚合网站 https://ai-ziyuan.techwisdom.cn/，你将进入一个全方位涵盖人工智能和语言模型领域的宝藏库。作者：路条编程（转载请获本公众号授权，并注明作者与出处）
+
+
+
+

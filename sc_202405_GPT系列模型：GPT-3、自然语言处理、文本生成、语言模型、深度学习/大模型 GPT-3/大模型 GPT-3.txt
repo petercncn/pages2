@@ -1,0 +1,15 @@
+
+
+
+            
+大模型 GPT-3
+          
+
+
+
+
+NLP任务范式的发展： word-vectors+Task Specific Architecures Multi Layer RNNsPre-trained transformers + Fine-tuning一般使用类似于Bert解决问题的方式：Pre-training + Fine-tuning的模式Pre-Training->Fine-Tuning范式的问题需要很大的task-specific datasets来进行finetuning针对每个任务均需要重复类似的fine-tuning过程会导致很多份类似的模型fine-tuning后的模型仅在自己的任务上可能有好效果经常在训练集合上效果好但真实环境就比较差人类则不同： 仅需要较小数据即可学习 & 能够进行迁移所以能否让模型具有人类的类似特性解题的思路Scale-UpIn Context LearningScale-UpOpenAI的研究表明， Larger is Better!在GPT-3之前，模型的参数一般就是亿OR十亿级别， GPT-3直接到了1750亿， 是GPT-2的100多倍OpenAI的研究有以下发现：模型效果和规模有很强的关联（参数量， 训练数据量， 处理的token数， 计算量）， 和模型结构弱相关。性能亿scale几乎是power-law的关系Transfer improves with test performancelarge models are more sample efficientIn Context LearningIn Context Learning: 在pre-training的时候，学习不同的skill和子任务， 然后在进行inference的时候， 使用NLP的方式提示models完成任务。In-Context Learning是Meta-Learning上图可以得到以下结论：Larger models learn better in-context learning， 大模型容量较大prompt matters， prompt对效果影响较大， 性价比最高，效果提升最快的是one-shotIn-Context Learning的特点：在pre-training的时候，学习不同的skill和子任务， 然后在进行inference的时候， 使用NLP的方式提示models完成任务模型仅train一次在使用的过程中， 权重固定无需再trainGPT-3结构GPT-3为仅使用decoder结构，其中使用了masked self-attention， 对比之下， bert使用encoder， T5使用 encoder + decoderGPT-3非常大， 参数为175B， 是GPT-2的117倍， 更多参数， 更大的训练语料， 更长的训练时间， 更大的context window（更适用于one-shot）, 模型使用300B tokens进行训练GPT-3为仅使用decoder结构，其中使用了masked self-attention， 对比之下， bert使用encoder， T5使用 encoder + decoderGPT-3非常大， 参数为175B， 是GPT-2的117倍， 更多参数， 更大的训练语料， 更长的训练时间， 更大的context window（更适用于one-shot）训练数据集中间省略了较多效果图， GPT-3可以在很多场景去的好的效果， 但很多都达不到fine-tuned SOTA......目前的发展趋势模型容量越大，效果越好（逐渐也有一些不同的声音）有越多提示演示效果越好：few-shot>one-shot>zero-shot目前还没有看到模型size的天花板瓶颈所在中间省略了较多页对于模型偏见，风险的讨论。PaLM参数量为540B参数量相当于是GPT-3的3倍在28个NLP tasks上超过了GPT-3在一部分任务上超过了SOTA增加scale+chain of thought prompting 带来的效果提升
+
+
+
+

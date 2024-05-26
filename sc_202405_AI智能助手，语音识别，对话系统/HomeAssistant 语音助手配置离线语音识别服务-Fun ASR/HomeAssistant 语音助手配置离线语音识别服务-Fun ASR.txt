@@ -1,0 +1,15 @@
+
+
+
+            
+HomeAssistant 语音助手配置离线语音识别服务-Fun ASR
+          
+
+
+
+
+HomeAssistant 语音助手，是一个允许用户通过语音直接控制 HomeAssistant 里面的设备，我们通过它的工作流程中可以发现。1. 通过拾音设备获取到语音数据，然后转交给 Speech to text 也就是 语音识别技术，也被称为自动语音识别（Automatic Speech Recognition，ASR） ，2. 根据解析出来的文本信息，转交给 conversation 也就目前 HomeAssistant 自带的对话代理 (对话代理是您助手的大脑，将处理传入的文本命令) 负载解析文本识别出用户的意图，然后执行。3. 把结果在通过 text to Speech 也就是我们常用的 tts 反馈到用户。HomeAssistant 意图相关词槽信息可以查看这里，再次感谢 al-one大佬， 中文的信息就是他提交的 PR。[1] https://github.com/home-assistant/intents/tree/main/sentences/zh-cnSpeech to text 或 ASR前两天我发布了 全网首发 离线语音识别CPU 版本 解决语音助手第二步的问题。 我们可以本地把语音转成文字， 但是当时只提供的一个 api 接口没有对接到 HomeAssistant，所以我有开发了一个插件，目前只可以手动安装，安装步骤如下：# 下载插件，这里使用了代理加速# 如果不可用，可以换成其他的#  这是代理地址： https://gh-proxy.com/git clone https://gh-proxy.com/https://github.com/yaming116/home-assistant-fun-asr# 拷贝到插件目录cp -r ./home-assistant-fun-asr/custom_components/fun_asr/ ./custom_components/# 删除下载文件rm -rf home-assistant-fun-asr/插件下载完成之后，重启 HomeAssistant，然后在集成里面配置插件信息。推荐实用 fun-asr docker 镜像，感兴趣的可以两个都尝试一下，支持配置多个。添加完成之后，我们在语音助手里面配置本地的 ASR 服务默认会存在一个，点击修改里面的配置所有的语言都配置中文我们在首页就可以打开语音助手了，进行手动触发语音控制。其他配置浏览器目前默认的策略是不允许非 https 获取麦克风权限的 ，所以在电脑端需要自己添加白名单，浏览器输入 chrome://flags/#unsafely-treat-insecure-origin-as-secure填写域名或IP并选择Enabled, 然后重启浏览器就可以进行语音输入了。后期展望所以目前还差第一步在有哪位大佬能完成拾音设备的制作，我们就可以实现一个本地的语音控制系统了，目前 ESPHome 已经有相关的组件支持了，链接地址如下： https://www.esphome.io/components/voice_assistant.html引用链接[1] : https://github.com/home-assistant/intents/tree/main/sentences/zh-cn
+
+
+
+
