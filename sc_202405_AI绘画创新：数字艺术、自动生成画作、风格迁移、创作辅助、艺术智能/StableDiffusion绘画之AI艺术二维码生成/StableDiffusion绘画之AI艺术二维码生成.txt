@@ -1,0 +1,15 @@
+
+
+
+            
+StableDiffusion绘画之AI艺术二维码生成
+          
+
+
+
+
+相信大家在很多地方已经看到过类似这种彩色的二维码是不是很好奇是怎么做出来的？这篇文章我们就用StableDiffusion来从零开始生成一张艺术二维码。一、安装必备插件和模型本教程主要使用 Controlnet 插件 + 两个模型实现Controlnet插件和模型的安装方式可以参考这两篇文章Stable Diffusion扩展插件、模型安装StableDiffusion绘画之ControlNet模型下载本教程需要使用的两个模型为：qrcode_monsterhttps://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster/tree/mainbrightnesshttps://huggingface.co/ioclab/ioc-controlnet/tree/main/models二、制作二维码这里以「掘金人工智能AI」这个公众号的二维码为例：http://weixin.qq.com/r/RB0oMJfE4MqfrdNT90hW使用 https://qrcode.antfu.me/ 生成二维码，并适当做一些美化效果这一步的美化，主要优化点阵的形状及分布，形状尽量不要使用直角，点阵尽量分布均匀。然后下载备用注意，这一步生成的二维码，一定要先用手机扫描确保可以识别。三、制作艺术二维码在StableDiffusion里，我们生成艺术二维码主要就用到Controlnet功能第一个Controlet：使用qrcode_monster模型第二个Controlet：使用brightness模型注意这两个控制模型的权重值。为了有艺术效果，我们这里随便挑个大模型直接使用第一张图片的参数然后点击生成，即可以得到一张类似这种的艺术二维码四、参数调优当然，很多时候并不会这么顺利，大多都会遇到如下两种情况：用微信扫描无法识别在微信里长按无法识别除了不断地刷图期待人品大爆发外，还可以通过调节参数进行优化。调参数前，我们先来看看这两个Controlnet控制模型的功能是什么qrcode monster模型的功能：让二维码和模型与关键词增加融合度起到生成图片形状的主要作用控制权中调高是为了提高扫描成功率权重越低融合度越高，但是很难扫出来权重越高扫描成功率会越高，但是融合度会降低brightness模型功能：给图片调节明暗度对于二维码来说就是增加识别度所以，分享两个简单小诀窍：扫描不了时：拉高monster模型的控制权重识别不了时：拉高brightness结束控制的步数所以你学会了吗？如果这篇文章对你有用，欢迎关注点赞转发，我将会带来更多有价值的内容。StableDiffusion绘画系列文章：腾讯云服务器部署Stable Diffusion保姆级教程Stable Diffusion扩展插件、模型安装StableDiffusion绘画之ControlNet模型下载StableDiffusion绘画之模型简介（Checkpoint、Lora）StableDiffusion绘画之ControlNet Canny线稿模型StableDiffusion绘画之ControlNet MLSD直线检测模型StableDiffusion绘画之ControlNet seg分块检测模型StableDiffusion绘画之ControlNet OpenPose模型StableDiffusion绘画之局部重绘我们专注于人工智能AI前沿技术的分享，致力于探索AI技术在不同领域的商业价值和变现方式，欢迎转发支持。↓ 欢迎大家把我设置星标置顶 ↓可以第一时间收到推送
+
+
+
+

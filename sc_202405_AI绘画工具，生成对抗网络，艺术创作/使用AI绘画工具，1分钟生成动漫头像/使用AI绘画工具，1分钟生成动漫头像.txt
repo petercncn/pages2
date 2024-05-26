@@ -1,0 +1,15 @@
+
+
+
+            
+使用AI绘画工具，1分钟生成动漫头像
+          
+
+
+
+
+点击上方蓝字·关注我用AI绘画工具（SD），只需上传参考图，输入提示词，1分钟即可生成动漫头像，且和原图的相似度较高，十分强大！接着往下看，我将一步一步分享制作过程，非常简单。1效果展示左：赵今麦原图，右：AI生成动漫图（1）左：赵今麦原图，右：AI生成动漫图（2）左：赵今麦原图，右：AI生成动漫图（3）左：张元英原图，右：AI生成动漫图（4）左：张元英原图，右：AI生成动漫图（5）2制作方法目前，市面上有两款权威的 AI 绘画软件：Midjourney (简称MJ)：需要付费使用Stable Diffusion (简称SD)：开源免费与 Midjourney 相比，Stable Diffusion 的最大优势是开源的，免费的，这也让它具有无限的潜力和快速发展的优势。而今天我们制作的动漫头像，也正是使用SD来生成的。感兴趣的同学，关注我后留言，我将免费提供SD软件的百度网盘提取地址！制作方法如下：第一步，提取原图的标签，生成正向提示词如上图所示，启动SD软件后，找到标签器插件，然后上传原图，系统自动识别原图的标签，再点击按钮：发送到图生图 ，生成正向提示词 。第二步，检查正向提示词，输入反向提示词，选择合适的模型1、检查正向提示词AI绘画软件，是通过正向提示词+反向提示词来生成图片其中正向提示词就是你给它描述，要画一个什么样的内容，它按照你输入的提示词来操作（所以通过第一步的标签生成器来生成关键词非常准确，且不会遗漏）！但是我们要生成动漫头像，所以正向提示词里面的“写实”这个词，要去掉！！！还有其他的词，如果你觉得不需要，自行删除即可。2、输入反向提示词输入反向提示词，即不想让AI生成的内容，一般都是不好的东西，比如较差的画面、断手、断脚等等的词，这里直接复制粘贴进去即可。反向词如下：EasyNegative, ng_deepnegative_v1_75t, badhandv4,(worst quality:2), (low quality:2), (normal quality:2), lowres, ((monochrome)), ((grayscale)), bad anatomy,DeepNegative, skin spots, acnes, skin blemishes,(fat:1.2),facing away, looking away,tilted head, lowres,bad anatomy,bad hands, missing fingers,extra digit, fewer digits,bad feet,poorly drawn hands,poorly drawn face,mutation,deformed,extra fingers,extra limbs,extra arms,extra legs,malformed limbs,fused fingers,too many fingers,long neck,cross-eyed,mutated hands,polar lowres,bad body,bad proportions,gross proportions,missing arms,missing legs,extra digit, extra arms, extra leg, extra foot,teethcroppe,signature, watermark, username,blurry,cropped,jpeg artifacts,text,error正向提示词、反向提示词输入界面3、选择一个合适的大模型目前我用的这个模型是：[知识创客]小说推文专用模型[高精度版]V1该模型下载地址：https://www.liblib.art/modelinfo/e18ded154503439b885e1308d3fc7582感兴趣的同学，关注我后留言，我将免费提供SD软件的百度网盘提取地址！大模型选择界面当然也可以尝试其他动漫模型，只要效果自己满意就行。第三步，上传参考图以上两步完成后，就可以上传参考图了，AI将会参考你上传的图片来进行输出。如下图所示：参考图上传界面第四步，设置生成参数如下图所示，设置相应的生成参数迭代步数：选择20-25即可；采样方法：选择Euler a重绘尺寸：1024 x 1024重绘幅度：输入0.6-0.8即可（数字越小，AI参考原图的比例越高）相关参数设置界面点击生成按钮，即可生成AI图按照上述四个步骤，即可生成动漫头像，熟练之后，1分钟就能生成。以下就是上传原图后，生成的 1024 x 1024 的动漫图，非常适合做头像。原图AI生成的动漫图感兴趣的同学，关注我后留言，我将免费提供SD软件的百度网盘提取地址！END
+
+
+
+

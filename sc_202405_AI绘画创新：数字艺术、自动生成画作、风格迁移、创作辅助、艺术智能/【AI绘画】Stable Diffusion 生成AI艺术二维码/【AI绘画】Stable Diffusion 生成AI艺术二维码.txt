@@ -1,0 +1,15 @@
+
+
+
+            
+【AI绘画】Stable Diffusion 生成AI艺术二维码
+          
+
+
+
+
+一、效果图二、相关资源（文末提供整理好的文件压缩包途径）1. 模型下载：ReV Animated - v1.2.22. VAE 下载：blessed2.vae.pt · NoCrypt/blessed_vae at main (huggingface.co)hakurei/waifu-diffusion-v1-4 at main (huggingface.co)VAEs/orangemix.vae.pt · WarriorMama777/OrangeMixs at main (huggingface.co)1. 嵌入式反向提词下载：2. controlnet tile 模型下载：https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main3. controlnet 二维码需要的模型：https://huggingface.co/ioclab/ioc-controlnet/tree/main/models备注：• 模型存放路径：stable-diffusion-webui\models\Stable-diffusion• VAE存放路径：stable-diffusion-webui\models\VAE• 嵌入式反向提词存放路径：stable-diffusion-webui\embeddings• controlnet 模型存放路径：stable-diffusion-webui\models\ControlNet• controlnet tile用于增添二维码上边的细节三、上干货（生成步骤）• 模型：revAnimated_v122• VAE：kl-f8-anime2• 正面提示词：((best quality)),((masterpiece)),(detailed),man standing before fire,(Jason Benjamin:1.2),(Artstation contest winner:1.1),(fantasy art:1.3),(portrait armored astronaut boy:1.2),(Peter Mohrbacher:1.1),(unreal engine:1.1),(Hearthstone card game artwork:1.1),spiked metal armor,(dynamic composition:1.3),(8k resolution:1.2),• 反面提示词：3d,cartoon,anime,sketches,(worst quality, bad quality, child, cropped:1.4) ((monochrome)),((grayscale)),(bad-hands-5:1),(badhandv4:1),(easynegative:0.8),(bad-artist-anime:0.8),(bad-artist:0.8),(bad_prompt:0.8),(bad-picture-chill-75v:0.8),(bad_prompt_version2:0.8),(bad_quality:0.8),text,• 采样方法：DPM++ 2M Karras• 采样迭代次数：50• 宽度：768• 高度：768• 提示词相关性：20• ControlNet Unit0：上传二维码，然后依次配置，【启用】、【Pixel Perfect】、【inpaint_global_harmonious】、【control_v1p_sd15_brightness】、【0.35】、【0】、【1】• ControlNet Unit1：上传二维码，然后依次配置：【启用】、【Pixel Perfect】、【inpaint_global_harmonious】、【control_v1p_sd15_brightness】、【0.5】、【0.35】、【0.7】免费生成1张艺术二维码，可后台回复：“艺术二维码”并附加1张二维码图片（24小时内完成）。获取七镜整理好的资源，可后台回复：“艺术二维码资源”。
+
+
+
+
