@@ -1,0 +1,15 @@
+
+
+
+            
+Krea AI最简单的图像生成工具，可实时绘画
+          
+
+
+
+
+公众号：屋影（ID：wukeets）大家好，今天给大家分享一款可以实时绘画的 AI 软件，软件名称：Krea AI一、Krea AI介绍Krea AI 是一个 AI 设计工具，它可以让您探索数百万个由人工智能生成的图像，并创建自己的灵感收藏。它最近因为实时生成（Real-time Generation）功能而备受瞩目，这个功能可以在画板上随意绘画或导入图片，AI 会根据您的提示词和图形快速生成新的图像，还可以一键切换不同的风格。Krea AI 还支持接入电脑摄像头、桌面和其他应用的画面，这意味着可以用 Photoshop、Illustrator、Figma、Blender、Sketchfab 等我们熟悉的设计工具搭配 Krea AI 进行创作。二、功能1、实时绘画使用形状图片和文本实时生成图像，在预览窗口就会实时显示出来，调整形状焊图片的位置，而且还有四种画风的切换。2、高清修复且它也支持高清修复图片，把模糊的地方高清放大处理。三、小结这款工具现在无需下载，可以在在线体验，目前还处于内测的阶段，操作简单，很灵活，这些功能目前全部免费，因为在内测，所以伙伴们，趁着内测免费，赶紧用起来，在线入口获取，微信搜索小程序：【格丘】获取；如果打开小程序找不到，就在小程序搜索：Krea所有的AI设计工具，模型和插件，都已经整理好了，获取链接：: https://pan.baidu.com/s/1RE87YUVdygHPAyg3e95fcA?pwd=e16p 提取码: e16p 最新版SDXL1.0大模型+VAE+Lora获取方法，公众号回复：LoraStable Diffusion全部教程资料、软件和插件及所有，直接回复：SD模型除此之外，我还准备了，以下软件工具Adobe全家桶获取方式，公众号回复：全家桶Adobe 2024集合2024大师版Adobe.Creative.Cloud.Collection.2024.v17Adobe Photoshop(25.1.0.m2350Beta)安装板Adobe Photoshop25.2.0.2368(Beta)安装版Adobe Acrobat Pro DC v2023.006.20320 x64.rarAdobe After Effects 2024 v24.0.0.55.rarAdobe Animate 2024 v24.0.0.305.rarAdobe Audition 2024 v24.0.0.46.rarAdobe Bridge 2024 v14.0.0.12.rarAdobe Illustrator 2024 v28.0.0.88.rarAdobe Lightroom Classic 2024 v13.0.1.rarAdobe Media Encoder 2024 v24.0.0.54.rarAdobe Photoshop 2024 v25.0.0.37.rarAdobe Photoshop Lightroom Classic 2024 v13.0.0.1...Adobe Premiere Pr 2024 v24.0.0.58.rarAdobe.Character.Animator.2024.v24.0.0.46.rarAdobe.InCopy2024.19.0.rarAdobe.InDesign.2024.v19.0.0.151.rar2024 PS修图插件大合集https://pan.baidu.com/s/1VNWNoc2ArqY87KsO0BiVFQ?pwd=8nvf 提取码: 8nvf 后期调色预设大合集https://pan.baidu.com/s/1E7sRKVth4Nmv9lRX1iqc_Q?pwd=6jk6 提取码: 6jk6 https://pan.baidu.com/s/1LYZwwsFkXI0td8MP1Gy8IA?pwd=2n9n 提取码: 2n9nPS修图动作大合集https://pan.baidu.com/s/1gSA5oNoY3rlM5yRhPWwXDA?pwd=cyo0 提取码：cyo0 修图练习Raw格式原图大合集https://pan.baidu.com/s/1sjgNt10D8v6ZsLNcRAhCkw?pwd=qv44 提取码: qv44Adobe全家桶https://pan.baidu.com/s/1kV8xogWMyZIe67Y_JGYNCw?pwd=v57b提取码: v57bPS2024全家桶https://pan.baidu.com/s/18q_k3v8CADPgkAFXJnZB9Q?pwd=faxc 提取码: faxc电脑常用工具大合集https://pan.baidu.com/s/11VFaqE0jZ37WtSOS-SK68Q?pwd=a7u8 提取码: a7u8摄影师必备，PS笔刷特效套装大合集，一键式惊人效果https://pan.baidu.com/s/1W7LKjFrczN_dXCMofFGoGg?pwd=7jaw 提取码: 7jaw感兴趣的伙伴，可以联系我，自行下载体验它的魅力之处。好了，今天分享到此了！希望能帮到你，哪怕一点点！如果您喜欢我提供的分享内容！请关注公众号以示鼓励。我们会持续不断地分享更多有价值的资源，感谢您的支持！
+
+
+
+

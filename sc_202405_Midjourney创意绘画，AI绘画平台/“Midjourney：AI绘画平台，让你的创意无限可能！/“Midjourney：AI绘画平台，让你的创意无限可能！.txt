@@ -1,0 +1,15 @@
+
+
+
+            
+“Midjourney：AI绘画平台，让你的创意无限可能！
+          
+
+
+
+
+遇见所有相遇 都是久别重逢  改变的秘密，是把所有的精力放在建造新的东西上，而非与过去抗衡    midjourney是一个独立的研究实验室，探索新的思维媒介，扩展人类的想象力。它是一个基于Discord的聊天室网站，你可以通过输入描述词来生成原创的图片 ，新用户有25次免费使用次数，超过后需要开通会员        在midjourney上生成图片很简单，只要在输入框输入/imagine和你想画的内容就可以了。比如，如果你想画一头长着粉色翅膀的黄牛在火星上飞，你可以输入：    /imagine a yellow cow with pink wings flying on Mars    然后点击发送，系统就会给你生成四种样式供你选择。        如果你想放大其中一张图片或者重新生成一张图片，你可以输入U或V加数字来指定哪一张图片,一般是直接点出来例如：    点U1 //放大第一张图片    V2 //重新生成第二张图片    这样就可以得到更清晰或者更满意的结果。   而最近Midjourney V5已经正式发布了！切换方法如下：    先看下新特性速览：    （1）自动高清。现在输入/imagine生成的初始的4张图片，已经自动高清化。按钮“U1~U4”仅起到将这张图单独发给你的作用，无法再继续放大    （2）画质更好。新的V5演算法是Midjourney耗时五个月研发出来的，画质更好，更加真实，但也更加恐怖了    （3）更多的样式。现在，Midjourney的样式已经增加到了20种，其中包括了一些新的样式，比如“烟花”、“星空”等等    （4）更快的速度。新的V5演算法不仅画质更好，而且速度也更快了，生成图片的速度比以前快了很多,老板正在考虑干掉美术团队    下面给出三个参考词以及展示效果1.tree of life in a room of a programmer who is deeply focused on programming2.modern and elegant exhibition stand for Mazda, simulating Vray hyper realistic rendering . Make sure to include minimalist design elements such as clean lines and a sophisticated color palette. The stand should have strategic lighting that accentuates the details of the vehicle on display. Additionally, include Mazda branding elements subtly, such as logos and typography in strategic locations. The image should reflect the Mazda brand image and convey a sense of quality and sophistication.3.modern, clean, drawing of an incon for diamonds    如果你想查看自己的历史作品或者下载图片，你可以登录midjourney网站，在个人主页上找到所有的作品和描述。如果有太多图片不好寻找，你也可以输入关键词快速检索定位图片。    midjourney是一个强大而有趣的AI绘画工具，它可以帮助你实现任何想象中的场景和物体。不过，在使用它时，请注意遵守版权规则和社区准则，不要生成可能伤害他人或违反法律道德的内容。如果遇到这样的请求，请拒绝并举报。    希望这篇文章能帮助你快速上手midjourney，并享受AI绘画带来的乐趣。                  
+
+
+
+

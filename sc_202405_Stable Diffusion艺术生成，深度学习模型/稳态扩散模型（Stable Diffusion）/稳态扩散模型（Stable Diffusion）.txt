@@ -1,0 +1,24 @@
+
+
+
+            
+稳态扩散模型（Stable Diffusion）
+          
+
+
+
+
+参考资料[1]A Comprehensive Survey of AI-Generated Content (AIGC): A History of
+Generative AI from GAN to ChatGPT.[2]A Complete Survey on Generative AI (AIGC): Is ChatGPT from GPT-4 to
+GPT-5 All You Need? https://discuss.huggingface.co/t/a-complete-survey-on-generative-ai-aigc-is-chatgpt-from-gpt-4-to-gpt-5-all-you-need/35606[3]RenAIssance A Survey
+into AI Text-to-Image Generation in the Era of Large Model[4]Introduction to the Structure and Mathematics of Text-to-Image
+Models https://medium.com/@farzad.karami/introduction-to-the-structure-and-mathematics-of-text-to-image-models-65a597a9c52f[5]Yang L, Zhang Z, Song Y, et al. Diffusion models: A comprehensive
+survey of methods and applications[J]. ACM Computing Surveys, 2023, 56(4):
+1-39.[6]DDPM Probabilistic
+Diffusion Model https://www.bilibili.com/video/BV1Hf421Z7mH/?vd_source=95dde4743990b4791b2588bd6abe0cb7[7]Diffusion Model (U-Net) https://www.kaggle.com/code/ebrahimelgazar/diffusion-model-u-net[8]Jonathan Ho,Ajay
+Jain,Pieter Abbeel. Denoising Diffusion Probabilistic Models[9]Stable Diffusion Explained - How text to image generation works
+using U-Net Noise Predictor https://www.youtube.com/watch?v=q9GGF_g1vbk[10]Stable Diffusion Explained https://medium.com/@onkarmishra/stable-diffusion-explained-1f101284484d[11]Understanding Variational Autoencoders (VAEs) https://towardsdatascience.com/understanding-variational-autoencoders-vaes-f70510919f73[12]变分自编码器（六）：从几何视角来理解VAE的尝试https://spaces.ac.cn/archives/7725 [13]变分自编码器（一）：原来是这么一回事https://spaces.ac.cn/archives/5253[14]Comparing U-Net Based Models for Denoising Color Images https://www.mdpi.com/2673-2688/1/4/29[15]Stable Diffusion Image Variations https://www.justinpinkney.com/blog/2023/stable-diffusion-image-variations/[16]Diffusion models in practice. Part 1: A primers https://deepsense.ai/diffusion-models-in-practice-part-1-the-tools-of-the-trade/创作不易，请各位点赞转发赞赏支持！高清版后台回复：Stable Diffusion
+
+
+
+

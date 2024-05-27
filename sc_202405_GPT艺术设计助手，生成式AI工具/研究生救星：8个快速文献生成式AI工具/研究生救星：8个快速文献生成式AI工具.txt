@@ -1,0 +1,33 @@
+
+
+
+            
+研究生救星：8个快速文献生成式AI工具
+          
+
+
+
+
+救命啊！论文海浪一波接一波！有哪些AI可以帮上苦命的同学呢？我们整理并推荐8个免费的生成式AI，
+希望能帮大家提升学习效率。1、ChatPDF
+网址3https://www.chatpdf.com/功能：加速阅读文献TLDR：可以上传想读的文献，通过与AI助手问答，快速得到答案 2、Elicit
+网址：https://elicit.com/功能：加速搜索文献、快速了解文献
+TLDR：可以问关键学术问题，AI助手会从数据库推荐最相关的文献给你，并帮你总结3、perplexity
+网址：https://www.perplexity.ai/功能：快速概述文献
+TLDR：AI助手会从网上推荐最相关的文献给你，并帮你总结方便理解
+4、Paper Digest
+网址：https://www.paperdigest.org/功能：快速概述文献
+TLDR：AI助手会从数据库推荐最相关的文献给你，并帮你写成文献概述
+5、Ailyze
+网址：https://www.ailyze.com/ailyze/功能：快速理解文献
+TLDR：AI助手会帮你总结论文的关键知识点（可以用中文输出！）
+6、unriddle
+网址：https://www.ailyze.com/ailyze/功能：快速理解文献
+TLDR：AI助手可以用问答方式回答你文献中的关键问题，并可以highlight原文7、Humata
+网址：https://www.humata.ai/功能：快速理解文献
+TLDR：AI助手可以用问答方式回答你文献中的关键问题，并可以highlight原文8、Connected papers
+网址：https://www.connectedpapers.com/功能：可视化理解文献之间的关系TLDR：可以通过graph来用视觉理解文献之间的关系，加速成为领域专家点下方名片关注公众号免费改写论文复制链接分享给好友奖励降重字数每邀请一位新用户注册即可获得“降重字数500字”
+
+
+
+

@@ -1,0 +1,15 @@
+
+
+
+            
+Stable Diffusion 3 图像生成模型紧急更新
+          
+
+
+
+
+“根据 Emad的暗示和发布的演示，Stable Diffusion 3（稳定扩散3）模型具备视频生成能力，可以说是经过改进的Sora的一种版本。Stability AI目前有货，并发布了Stable Diffusion 3模型。该模型在多主题提示、图像质量和拼写能力方面表现出了极大的提高。Stable Diffusion 3模型的参数范围从800M到8B。这项技术采用了一种名为扩散变换器（Diffusion Transformer）的新型架构，结合了光流学匹配和其他技术上的改进。通过利用Transformer的最新改进，该技术不仅能够应用于更广泛的领域，还能处理多种类型的输入数据，包括多模态输入。Stability AI还声称，他们已根据Spawning AI的Do Not Train注册表清理了所有数据集，其中包括超过15亿个选择退出请求和其他手动请求发送给Stability AI的数据。”这里申请早期访问权限：https://stability.ai/stablediffusion3，可以通过点击，连接申请访问权限，如图所示；我们先来看看对应的stable diffusion 一些效果吧；     内容发布Stability AI在2月22日发布了他们最新的模型Stable Diffusion 3.0（简称为SD 3.0）。在发布公告中，他们将SD 3.0描述为其功能最强大的模型，并特别强调了它采用了Diffusion Transformer架构（有和 Sora模型的竞争的意思）。目前，他们尚未提供模型资源，但感兴趣的人可以加入等候名单以体验该模型。加入等候名单： https://stability.ai/stablediffusion3我们来看看一些社区案例中优秀作品，可以看出对应的作品有了很大的改进；     主体改进方案总的来说改进方面可以从下面看出，支持文本渲染性能提升多目标提示更好的图像质量对于文本点渲染能力的话，其实一开始主要依托于对应自己的主模型，其实本身的渲染能力比较一般，我们来看看用 官网中给的一段渲染词汇得到的图，用MJ做一下对比Prompt: "Epic anime artwork of a wizard atop a mountain at night casting a cosmic spell into the dark sky that says “Stable Diffusion 3” made out of colorful energy "提示:“史诗般的动漫作品，一个巫师在夜晚的山顶上向黑暗的天空施放宇宙咒语，咒语上写着“稳定扩散 3”，由五彩缤纷的能量组成做可以看出的话SD和MJ的能力已经不相上下了，而且主要SD是一个开源项目，免费，当然也可以看出的话 MJ的绘画上文字会不稳定。还需要多多调试；除了文生成能力和以上的优点外，Stability AI创始人Emad还发布了一段演示视频，展示了SD 3.0支持使用文字修改图像内容以及将静态图像转换为视频的功能。如果SD 3.0模型能够开源，肯定会为开源AI绘画生态带来全新的提升，这无疑是令人兴奋和期待的一件事情！我们再来看看其他优秀的创作；     Stable Cascade 模型简介其实关注Stabe ai 的领域会知道，其实早在SD 3发布的前夕，Cascade就已经用开源的方式发布了，稍微来看看对应的专业方向Stable Cascade系列由三个模型组成，分别是Stage A、Stage B和Stage C。其中，Stage A采用了VAE（变分自编码器）模型，而Stage B和Stage C则使用了扩散模型。这些模型分别处理图像生成的不同阶段，形成了一种级联（Cascade）的结构。在生成图像的过程中，首先由Stage C模型根据给定的文本生成24x24的低分辨率潜像（Latents）。接着，这些潜像被输入到Stage B模型中进行放大处理。最后，放大后的图像再次被输入到Stage A模型中，进行进一步放大并转换为像素空间，最终生成我们所需的图像。如下图此外，Stable Cascade还具有以下功能：支持图生成图、图像生成变体、Inpainting /Outpainting、Controlnet、Lora以及高清放大等。与其他SD模型相比，Stable Cascade采用更小的潜在空间进行训练和推理，从而实现了更快的推理速度和更高效的训练。这为开发人员提供了非常自由灵活的调节空间，也许将来它能够发展成为Stable Diffusion和Stable Diffusion XL之后的又一个新生态体系。这是对应的开源地址，有兴趣可以去看看  https://github.com/Stability-AI/StableCascade当然暂时对应SD3还未有开放，如果能使用，肯定第一时间去尝试一下的，喜欢可以点赞 +关注 。”在看“，优质内容会第一时间推送给你，时不时分享日常的Ai绘画和一些AIGC领域实时资讯 祝各位玩的开心！
+
+
+
+

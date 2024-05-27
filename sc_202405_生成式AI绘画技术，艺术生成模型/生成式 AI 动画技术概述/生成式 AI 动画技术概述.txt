@@ -1,0 +1,85 @@
+生成式 AI 动画技术概述
+
+点击蓝字 关注我们
+
+对当前可用于动画的生成人工智能技术进行分层布局和分类，给出简短的描述、示例、优缺点以及查找相关工具的链接。
+
+01- 生成图像 -
+依赖于使用生成图像人工智能模型的技术，这些模型是在静态图像上进行训练的。
+
+作为材料和资产微雨众卉新一雷惊蛰始
+使用从AI 应用生成的静态图像作为资产，传统工作流程，如 2D 抠图、数字操作、 拼贴，作为其他 AI 工具的来源，如提供“image2video”。
+ 免费 付费任何生成图像模型或应用程序：Stable Diffusion（在本地计算机上）CrayionInvokeai（使用SD）Enfugue（使用 SD）SkyBox AI - 生成 VR 360 度场景。Microsoft 映像创建器上的 DALL-E 3Leonardo AI - 用于处理生成图像 AI 的精致应用程序etc....插件和附加组件：Blender 中的 ComfyUI 节点Generative AI for Krita - Hugging face spaces.生成图像模型或应用程序：MidJourneyRunwayDALL-E 3 on ChatGPTAdobe's FireFlyRenderNet - using advanced SDetc...
+
+逐帧生成微雨众卉新一雷惊蛰始
+参数插值（变形）
+在每个生成的参数上逐渐插值参数 图像帧以在动画中产生更改。参数可以是与模型有关的任何内容，例如 作为文本提示本身，或底层种子。
+
+Depth ControlNet 用于保持整体手型一致。
+反馈环路
+通过“图生图”使用每个生成的图像帧作为动画中下一帧的输入。这允许在其他参数发生变化且种子不保持固定的情况下按顺序生成外观相似的帧。通常通过 Deforum 中的“去噪”强度或“强度计划”进行控制。起始帧也可以是预先存在的图片。
+
+2D 或 3D 转换
+在将每个生成的帧作为图生图的输入发送回之前，逐渐对其进行转换。2D 变换对应于简单的平移、旋转和缩放。3D 技术想象虚拟相机在 3D 空间中移动，这通常是通过估计每个生成帧中的 3D 深度，然后根据想象的相机运动对其进行变形来完成的。
+
+实验、运动合成、混合和其他技术
+运动合成是指尝试“想象”后续生成的帧之间的运动流，然后使用它逐帧扭曲它们，以在 I2I 循环中注入有机运动。这通常依赖于视频中运动估计（光流）训练的 AI 模型，但不是查看后续视频帧，而是查看后续生成的帧（通过 I2I 循环），或某种混合方法。
+
+使用 SD-CN 动画制作
+混合- 与视频源或/调节 (ControlNets) 混合
+将生成的序列与输入视频（分解为单独的帧）混合并影响生成的序列的广泛方法，通常用于对现实生活中的视频进行风格化。目前，流行着风格化舞蹈视频和表演的潮流，通常追求动漫造型和性感体格。
+输入帧可以在将它们输入回每个 I2I 循环之前直接与每帧生成的图像混合，或者在更高级的情况下用于附加条件（例如 ControlNet）。
+
+Deforum 的混合模式具有一些 ControlNet 条件
+光流扭曲（在具有视频输入的 I2I 环路上）
+“光流”是指视频中估计的运动，它通过每帧上屏幕空间中每个像素的运动向量来表达。当对变革工作流程中使用的源视频进行光流估计时，它可以用于根据它来扭曲生成的帧，使生成的纹理在对象或相机在帧上移动时“粘”到对象上。
+
+3D衍生
+通过变革性工作流程完成的调节也可以直接与 3D 数据绑定，跳过一层模糊性和在视频帧上完成的处理。开放姿势或深度数据由虚拟 3D 场景提供，而不是根据视频（或 CG 渲染的视频）估计。这允许采用最模块化、最可控的 3D 原生方法，如果与有助于时间一致性的方法相结合，其功能尤其强大。
+
+手持装置用于为 ControlNet 生成开放姿态、深度和法线贴图图像，最终 SD 结果。
+免费 A1111 webui 中使用的工具:用于参数插值动画（旅行）的小脚本：步骤、提示、种子。Deforum - 满足所有动画标清需求的最佳动力源，融合了上面列出的大部分技术。Parseq - Deforum 流行的视觉参数排序器。Deforum timeline helper-参数可视化和调度工具。Deforumation - 用于实时控制 Deforum 参数的 GUI，允许反应性调整和控制。TemporalKit - 采用 EBsynth 的一些原理与 SD 一起使用，以实现一致的视频风格化。SD-CN Animation - 允许一些混合风格化工作流程以及导致湍流运动的有趣的光流运动合成。TemporalNet -ControlNet 模型，旨在用于 Deforum 等其他工作流程，旨在提高时间一致性。在 Google Colab 或 Jupyter 上运行：Stable WarpFusion - 高级视频风格化和动画的实验性代码工具包。插件与扩展:Dream Textures for BlenderStabiliy Ai's Blender pluginCharacter bones that look like Openpose for Blender Unreal Diffusion for Unreal Engine 5After-Diffusion for After effects (highly WIP atm)
+付费Stability AI 的动画 APIKaiber 的“Flipbook”模式 - 基于 Deforum 的代码，如其制作人员名单中所述。gooey.ai 上的 AI 动画生成器 - 在线运行 Deforum 的简化方式，提供一些免费积分。 插件和附加组件：用于 After Effects 的 DiffuseeA1111、ComfyUI、StreamDiffusion 和 DotSimulate 的 TouchDesigner 的其他 API 组件 。
+* 理想情况下，您有足够好的硬件，即 GPU，可以运行这些工具在本地。
+02- 生成视频 -
+
+生成视频模型微雨众卉新一雷惊蛰始
+文生视频
+使用文本提示生成全新的视频剪辑，无论是真人表演还是任何超现实和风格化的东西，只要你能描述它，就像静态图像生成一样。
+
+真正的创意控制相当弱，但当与图像或视频调节（您可以称之为“变革性”工作流程）结合使用时，它会变得更加强大。此外，还出现了新形式的运动控制和调节，例如 MotionCtrl 或 Runway 的多运动画笔。
+
+图生视频
+许多生成视频工具能够调整图像上的结果。要么完全从指定的图像开始，要么将其用作语义信息、构图和颜色的粗略参考。人们通常也会使用传统的静态图像模型生成起始图像，然后再将其提供给视频模型。
+链接：https://www.youtube.com/watch?v=Y7f0ebLNihM
+
+视频扩展视频
+除了文本提示之外，还可以在生成（去噪）输出时将输入视频信息嵌入到视频模型中。这个过程不仅在逐帧级别（如稳定扩散的风格化那样），而且在整体和运动级别上与输入视频剪辑匹配。是用与图生图一样的去噪强度来控制的。
+
+Done with Zeroscope in webui txt2vid extension, using vid2vid mode.
+ 免费 付费（有试用版）Stable Video (SVD) - 来自 StabilityAI 的开源视频扩散模型。SVD ComfyUI 实现SVD temporal ControlNetMotionCtrl - 增强功能允许在各种视频模型中控制对象运动和摄像机轨迹。Emu video - Meta 生成视频模型的预览演示。Text 2 Video extension for A1111 webui 可与以下一起使用：VideoCrafterZeroscope 插件和附加组件：Pallaidium for Blender - 充满了跨图像、视频甚至音频领域的生成功能。 Hugging face spaces.Runway's Gen2Kaiber's "Motion" mode.Pika labs
+* 最好您有足够好的硬件（即 GPU）来在本地运行这些工具。
+增强图像模型微雨众卉新一雷惊蛰始
+随着 AnimateDiff 的日益普及，通过视频或“运动”理解来增强已建立的图像扩散模型。结果更类似于原生视频模型，而不是使用逐帧技术获得的结果。可以利用为这些图像模型构建的所有内容，例如稳定扩散，包括任何社区创建的检查点、LoRA、ControlNet 或其他类型的条件反射。甚至可以通过 ControlNet 提供视频调理，这与逐帧技术非常相似。
+
+工具
+FREEPAIDAnimateDiff（适用于 SD v1.5）的实现在这方面处于领先地位：A1111 webui extension  AnimateDiff.AnimateDiff implementation in ComfyUIVisionCrafter - 用于 AnimatedDiff 实现和其他项目的 GUI 工具。for SD XL:Hotshot-XL多功能实现：EnfugueNothing as far as I know.
+03- 带语音合成的动画脸部 -
+
+源图像通常由生成式图像 AI 制作，也可以使用任何带有脸的图像。语音由文本生成，条件为选定的角色声音。不同的工具（或打包工具）通过适当的口型同步从声音中合成面部动画，通常只在脸部和头部产生运动图像的区域。使用预先训练的头像可以移动身体。
+ 免费 付费（有试用版）ElevenLabs - 使用受到限制，但限制似乎每月刷新一次。 “Wav2Lip”A1111 WebUI 扩展 - 用于生成“唇形同步”动画的工具。似乎仅限于嘴部区域。“Text 2 Speech”可能不如ElevenLabs。全脸动画，只有付费应用程序的试用版允许有限的免费访问。面部动画（通常与语音合成捆绑在一起）：D-IDHeygenSynesthesia
+04- 3D角色动作合成 -
+
+3D 角色背景下的动作合成。可以应用于3D动画电影、视频游戏或其他3D交互应用。就像图像和视频一样，这些新兴的人工智能工具允许您通过文本提示角色动作。有些还从非常有限的关键姿势构建它，或者在交互式设置中动态动态生成动画。
+免费（或有限计划） 付费MootionOmni AnimationCascadeur - 动画助手，可通过最少的输入创建流畅的、基于物理的动画和姿势。ComfyUI MotionDiff - 将 MDM、MotionDiffuse 和 ReMoDiffuse 实现到 ComfyUI 中。提供更多功能和扩展限制的免费工具的付费计划。
+05- LLM powered tools -
+LLM（大型语言模型）表现出出色的性能，在编码任务中，尤其是在微调时，可以告诉它在支持动画的软件中编程和编写脚本。这意味着动画将遵循通常的工作流程，但 AI 会为您提供帮助。在极端情况下，人工智能会为你做所有事情，在后端管道中分配适当的任务。
+ 免费 付费Blender Chat Companion （类似于 Blender Copilot）Blender 内部的 ChatGPT 实现，专门用于处理适当的任务。使用付费的 ChatGPT API 令牌。Genmo - 承诺向“创造性通用智能”迈出一步，多步骤过程全部通过聊天界面控制。Blender Copilot -（类似于 Blender Chat Companion）Blender 内部的 ChatGPT 实现，专门用于处理适当的任务。使用付费的 ChatGPT API 令牌。
+即将推出的 ChatUSD - 一个使用和管理 USD 的聊天机器人，这是皮克斯最初创建的标准，用于统一和简化动画电影制作中的 3D 数据交换和并行化。
+原文来源网络，本文翻译。
+到底了~~~~
+AI知识星球，不定期赠送福利或发放AI 资源，持续发布 AI 最新风向标。
+
+关注【AIGC新知】公众号，获取更多行业资讯！
+公众号：AIGC新知         视频号：AIGC创意实验室哔哩哔哩：AIGC新知         ▇ 扫码关注我们
+

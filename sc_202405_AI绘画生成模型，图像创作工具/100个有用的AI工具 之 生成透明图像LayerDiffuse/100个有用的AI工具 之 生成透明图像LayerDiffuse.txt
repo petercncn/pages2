@@ -1,0 +1,15 @@
+
+
+
+            
+100个有用的AI工具 之 生成透明图像LayerDiffuse
+          
+
+
+
+
+点击上方卡片关注【腾哥聊产品】Stable Diffusion是开源图像生成界的扛把子，最强的地方在于它的可控性，通过ControlNet，和一系列插件，可以非常精准地控制图像生成的需求。今天介绍的是SD的一个插件LayerDiffuse，它可以帮助我们用SD生成透明的png图层。我们在用PS抠图的时候，对于头发、毛绒边这种图是非常头疼的，有了它，可以直接生成半透明的png图，就不需要抠图了。LayerDiffuse 是 ControlNet 作者的新作，目前可以在sd-forge UI，和ComfyUI上使用。（暂时还不支持SD WebUI，SD-forge UI功能、界面和SD WebUI差不多）我们来看看LayerDiffuse 的使用效果。一、安装LayerDiffuse插件和模型在SD-forge UI的Extensions菜单中，点击Install from URL在URL for extension's git repository 项中输入：https://github.com/lllyasviel/stable-diffusion-webui-forge.git然后点Install安装即可安装完后，重启SD-forge UI然后安装模型，在huggingface上下载https://huggingface.co/LayerDiffusion/layerdiffusion-v1/tree/main把这些模型全部下载下来。放到你的安装路径下：二、生成图片随便选择一个模型，我们选一个写头风格的realisticVisionV51模型。prompt填写：a girl with disheveled hair,simple background然后在下面LayerDiffuse插件中，勾选Enabled，method里选择Sd1.5 Only Generate Transparent Image (Attention Injection) 注意这里根据选择的checkpoint模型，如果是sdxl的，就要选sdxl。然后点击生成这里第1张图片是预览用的，第2张才是透明的。我们在PS里换个黑底，看看透明的效果如何放大一点看看再换个底色三、应用场景这个生成效果真的是非常惊艳，它还可以跟controlnet等插件组合起来使用。比如手绘的草图，用controlnet上色，再加上LayerDiffuse生成透明的图层。比如用它批量做PPT的插图（这句话可以变现，你们要是靠这个赚到钱了，就给我打赏买杯咖啡吧，哈哈）点击下方卡片关注【腾哥聊产品】
+
+
+
+

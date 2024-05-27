@@ -1,0 +1,15 @@
+
+
+
+            
+Stable Diffusion二次元人物生成方法
+          
+
+
+
+
+面向人群：能够打开Stable Diffusion的人，但不会稳定出图的人您如果不会本地部署SD，请参照下面这篇文章进行部署👇第一步 打开C站在浏览器网址处输入https://civitai.com/并点击键盘回车进入网站。第二步 搜索model在C站的搜索框输入：darkSushiMixMix并点击键盘回车进行搜索，在过滤器中选择：Models第三步 下载model点击进入darkSushiMixMix模型，进入后点击Download第四步 安装model将下载好的model文件darkSushiMixMix_225D.safetensors放在\sd-webui-aki\sd-webui-aki-v4.2\sd-webui-aki-v4.2\models\Stable-diffusion目录下第五步 选择Model在SD webUI界面中，Stable Diffusion模型处选择darkSushiMixMix_225D.safetensors第六步 配置参数后出图您可以按照我的参数进行配置，配置好后可以生成和示例中一致的图片正向提示词：1girl,black hair,purple eyes,happy birthday,反向提示词：无参数值迭代步数20采样方法Euler a面部修复不勾选平铺图不勾选高分辨率修复不勾选宽度512高度512总批次数1单批数量1提示词引导系数7随机数种子2445424795效果如下
+
+
+
+

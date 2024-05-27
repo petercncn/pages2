@@ -1,0 +1,234 @@
+AIGC _ Stable Diffusion 艺术二维码生成指南
+
+
+
+今年六月 @nhciao 团队最新发布了利用 AI 生成艺术二维码的 ControlNet 插件，为二维码的制作带来更多的发挥空间，原文可点击此处阅读。制作艺术二维码的方法从模糊处理 tile 图生图的方法，进一步到利用 QR Code Parttern 插件创意生成，再到功能强大 QR Code Monster 插件问世，配合 @nhciao 团队开发的 brightness、illumination 插件使用，大大提高了二维码的识别度。训练艺术二维码的技术不断更新换代，当然，未来一定还会有更多更便捷的网站和插件诞生。本篇教程将具体演示在 Stable Diffusion 中利用 QR Code Monster 以及 brightness、illumination 插件生成艺术二维码的操作方法。文中所涉及到的素材和插件如需获取，请在后台回复【艺术二维码】。
+
+
+网址越短，越易于二维码的识别，且与所生成画面的融合度越高。因此，生成短链接是制作艺术二维码至关重要的前置准备。已知网址，求短链接若可以轻松获取网站链接，只需将其输入至生成短链接的网站即可。在此推荐万能的站长工具：
+
+
+
+
+
+
+
+
+
+
+
+站长工具
+
+https://tool.chinaz.com/tools/dwz.aspx已知二维码，求短链接譬如微信名片二维码、小红书二维码等，需在草料二维码网站中先行解析，提取网站链接。
+
+
+
+
+
+← 滑动查看 →
+
+https://cli.im/deqr在此提示，微信生态内部产生的链接建议不要生成短链接，否则将会扫描无效。
+下载 QR Toolkit 插件打开 Stable Diffusion WebUI，点击【扩展】-【可下载】-【加载扩展列表】，搜索【qrcode-toolkit】并安装，之后重启界面便可在上方工具栏中找到【QR Toolkit】。或者你也可以从下方网址中直接调用。
+
+
+
+
+
+
+https://qrcode.antfu.me/#generatorQR Toolkit 插件是由创作者 @Anfu 开发，为了实现自动化的二维码生成和检验校对。由创作者主笔的使用方法在《Refining AI Generated QR Code》一文中有具体的呈现，在这里你将会从开发者的视角理解工具的创作过程和其丰富的应用场景，感兴趣的读者可以扫描下方二维码移步阅读。生成并美化二维码1. 将生成的网址复制到指定位置。
+
+
+
+
+    
+
+
+2. 选取分布均匀的二维码形状。这里提示，微信识别二维码的机制中三个定位点起到十分重要的作用。如果主要的应用场景在微信中，建议码眼的形状选择方形。但这并不意味着其它样式不可识别，可根据生成效果自由选择。
+
+
+
+
+
+
+为了将二维码与图像融合的更加自然，我们建议应用以下 3 种方法：1）可以尝试将二维码旋转 180°，起到隐藏码眼的效果。
+
+
+
+
+    
+
+
+2）为二维码添加晶格化/液化的样式。
+
+
+
+
+    
+
+
+3）改变二维码的边距，根据需求为其适量增加噪点，使画面过渡均匀。
+
+
+
+
+    
+
+
+自定义调整经过以上的调整可以达到生成艺术二维码的要求了，但是如果希望画面的细节更加丰富、具有多样化自定义的效果，那么可以参看以下 4 条建议：1）根据画面重心和配色的需求，添加反色的效果。
+
+
+
+
+
+
+2）在 PS 中调整画布尺寸和二维码的位置。
+
+
+
+
+    
+
+
+3）在 PS 中连接或增加周围噪点，或者丰富其造型，生成更多的纹理和样式。
+
+
+
+
+    
+
+
+4）根据需要增加透视，生成独特的视角。
+
+
+
+    
+
+    图片来源 @lameguy
+
+进行到这里，我们便得到了一个经过美化处理后的二维码图片。建议在该步骤结束后，使用摄像头或其他工具进行测试，检查二维码是否可以被正常识别。二维码的样式不同，所生成的艺术效果也会千差万别。这里没有一种万能的美化公式，根据构思、构图和应用场景任意发挥即可。
+下载并安装插件1. QR Code Monster一款用于生成具有可识别性的艺术二维码插件，拥有十分强大的创造力。同类的插件还有 QR Code Pattern，在使用过程中我们发现 Monster 具有更好的表现力和融合度，不妨更多尝试一下。
+
+
+
+    
+
+https://huggingface.co/monster-labs/control_v1p_sd15_qrcode_monster2. brightness 和 illumination由 @nhciao 团队开发的两款插件，通过控制画面的灰度和光影，提高二维码的可识别度。
+
+
+
+
+    
+
+
+https://huggingface.co/ioclab/ioc-controlnet/tree/main/models下载以上 3 个插件，并安装在以下路径里：sd-webui-aki/models/ControlNet选择文生图模式1. 选择 Stable Diffusion 大模型和外挂 VAE。
+
+
+
+
+    
+
+
+2. 填写 prompt 和 Negative prompt，并根据所需选择 Lora 模型。选择细节丰富的指令，以及有装饰效果的元素对于隐藏二维码具有更好的效果。
+
+
+
+
+    
+
+
+这里测试采用的 prompt 指令和 Negative prompt 如下：Very detailed female, steampunk city taken over by plants in the background, d & d, fantasy, with blue flowers, beautiful face, hyperrealism delicate detailed, complex, sophisticated, vibrant colors, volumetric, lighting, pop surrealism art by Mark Ryden and Anna Dittmann  <lora:add_detail:1>nsfw,EasyNegative, FastNegativeV2, verybadimagenegative_v1.3,(ng_deepnegative_v1_75t), By bad artist, badhandv4, negative_hand,(worst quality, low quality:2), (blurry:2.0), monochrome, overexposure, watermark,text,sketch,logo,horror,bad anatomy,(extra body and hands and fingers and legs and arms:1.4), (fused hands and fingers and legs and arms:1.4), (bad hands and fingers and legs and arms:1.4),3. 迭代次数保持默认 20 。采样方法选择 DPM++ 2M SDE Karras。
+
+
+
+
+    
+
+
+4. 设置素材尺寸。默认为 512*512，尺寸越大，权重调整的范围便越大。为了保证清晰度和可控范围的前提下，我们将其设置为 1000*1000。
+
+
+
+
+    
+
+
+设置 ControlNet共需设置 3 组 ControlNet，可点击下图中 ControlNet Unit 的按钮自由查看每组的设置。
+
+
+
+
+
+
+以下展示每一组的详细操作：第一组上传单张图片的二维码勾选【启用】和【完美像素模式】控制类型保持默认【全部】预处理器选择【none】模型选择【qrcode_monster】（ ← 查看操作界面 ）
+    基础选项设定好后，接下来开始调整 ControlNet 中重要的三个参数【控制权重】、【引导介入时机】和【终止介入时机】，共同作用于艺术二维码的画面生成结果。
+
+
+
+
+    
+
+
+【控制权重】数值大小与 ControlNet 所占的比重成正比。因此在 qr_monster 中，权重越大，则意味着二维码越明显。画面尺寸不同，控制权重生成的最终结果也不尽相同。测试发现，尺寸在 512px 左右，权重数值在 1-2 之间会有较好的识别性；尺寸在 1000px 左右，权重在 0.4-1 之间会达到艺术性和识别性的平衡。【引导介入时机】指 ControlNet 开始介入的时间。介入之前，SD 会按照指令生成图片；介入之后，二维码开始融合在画面中。所以如果期望画面生成的更完整丰富，可以适当调后引导介入的时间。一般选择在 0-0.3 之间。【终止介入时机】指 ControlNet 终止介入的时间。终止介入后，二维码和图像会进一步融合。一般选择在 0.8-1 之间。第二组上传同一张二维码勾选【启用】和【完美像素模式】控制类型保持默认【全部】预处理器选择【none】模型选择【sd15_brightness】（ ← 查看操作界面 ）
+    调整【控制权重】、【引导介入时机】和【终止介入时机】。
+
+
+
+
+
+
+权重不宜过大，否则二维码会十分明显，融合度较差。建议先从 0.1 开始测试，等画面内容确认后，再调大数值增强二维码的可识别性。第三组上传同一张二维码勾选【启用】和【完美像素模式】控制类型保持默认【全部】预处理器选择【none】模型选择【sd15_illumination】（ ← 查看操作界面 ）
+    调整【控制权重】、【引导介入时机】和【终止介入时机】。和第二组的数值保持一致即可。
+
+
+
+
+
+
+反复测试并生成画面点击【生成】按钮，等待结果并扫码测试。
+
+
+
+
+    
+
+
+理论上不会一次生成就能够达到满意的结果，这个过程需要反复调整测试。在多次的生成中我们总结出以下经验：1）先以确定画面内容为主，通过调整 prompt 和控制权重、引导介入时间，丰富画面内容 。2）增加【总批次数】。建议可以先多生成出几张，挑选出精美度和融合度高的画面，提取出 seed 值单独进行识别性调整。 
+
+
+
+
+    
+
+
+3）在确定画面内容后，通过增大 brightness 和 illumination 插件的权重增强二维码的可识别性。
+
+
+
+
+    
+
+
+以下展示最终生成的画面：
+
+
+
+
+    
+
+
+
+如果最终生成的结果不尽人意，你可以将二维码导入到 QR Toolkit 和 PS 中进一步修正。当然你同样可以在 PS、AI 等软件中再次设计加工，完善画面内容。QR Toolkit 的 Compare 功能分别上传艺术二维码和最初生成的二维码，对比测试。调整【Ambiguity Threshold】检测错误码点，点击【Download】下载错误码点的遮罩层，在 PS 中进一步调整。
+
+
+
+    
+
+
+
+
+
+以上，欢迎讨论与指正，同时期待大佬们的更多作品问世。如需获取文中所提到的素材和插件，请在后台留言【艺术二维码】。
+
+
+
+

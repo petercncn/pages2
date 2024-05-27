@@ -1,0 +1,15 @@
+
+
+
+            
+图片生成视频开源AI模型：Stable Video Diffusion
+          
+
+
+
+
+图片生成视频前有gen-2，后有Meta的Emu Video！超越Gen-2 ？Meta推出文本生成视频工具：Emu Video那么在开源领域有没有好用的图片生成视频AI呢？答案是有！今天给大家介绍一个开源图片生成视频AI： Stable Video Diffusion Stable Video Diffusion是什么？Stable Video Diffusion是一种深度学习模型，可以根据描述生成图像、视频和文本。它与其他扩散模型不同，它从一个噪声图像开始，通过一个潜在的扩散过程将其细化为期望的输出。这种方法不仅加快了生成过程，而且还产生了更高质量的结果。本文将介绍如何使用Stable Video Diffusion制作视频，并展示一些的示例。Stable Video Diffusion模型能够以每秒 3 到 30 帧之间的可定制帧速率生成 14 和 25 帧的视频。模型地址：https://huggingface.co/stabilityai/stable-video-diffusion-img2vid开源地址：https://github.com/Stability-AI/stablediffusion论文地址：https://static1.squarespace.com/static/6213c340453c3f502425776e/t/655ce779b9d47d342a93c890/1700587395994/stable_video_diffusion.pdfAI变革往期回顾：1、木棍升级手术刀，助生产力提升！AI生图可精准编辑！Meta推出AI大模型：Emu Edit2、超越Gen-2 ？Meta推出文本生成视频工具：Emu Video3、1张图片，1段音频，生成逼真人脸动画的视频！NTU创新AI视频生成方法：DIRFA4、图片生成速度最高提升10倍！可以做到“实时”生成！清华推出LCM/LCM-LoRA！5、网易（TTS）EmotiVoice：开源语音合成，支持2000多音色6、MiniGPT-5：开源！多模态！支持图片和文本生成的AI大模型7、像人类一样，让AI从错误中学习！微软最新论文公布新技术LeMa8、学术AI工具！帮你写论文，查找论文错误，翻译文献等！支持多种大模型和插件好了，今天的内容就分享到这里希望你们喜欢！欢迎关注、点赞和分享！
+
+
+
+

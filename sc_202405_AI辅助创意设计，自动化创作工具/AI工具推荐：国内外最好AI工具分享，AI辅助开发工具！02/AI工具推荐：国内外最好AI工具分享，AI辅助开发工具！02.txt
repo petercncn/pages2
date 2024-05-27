@@ -1,0 +1,15 @@
+
+
+
+            
+AI工具推荐：国内外最好AI工具分享，AI辅助开发工具！02
+          
+
+
+
+
+求点赞，求分享，求赞赏！随着ChatGPT、Midjourney等AIGC产品的爆火，游戏行业正在悄然改变中。半年前我们跟一个小团队的游戏制作人交流时，他曾提到自己最苦恼的一件事，便是招不到合适的美术，摊子太小给不起太高的薪水，自己又是学程序的不会美术，整体而言十分影响开发进度。为了顺应日益扩大的AI领域，新思科技推出新的AI代码分析API预览版，使开发者能够分析AI工具生成的代码，识别其中包含的开源代码片段及相关的许可和版权条款。借助新思科技Polaris SaaS平台和Black Duck®代码片段分析功能，开发者只需提供AI工具生成的代码块，即可了解是否有与之匹配的开源项目，如果有，还可了解与该开源项目相关的许可协议。有了这些信息，开发者便可确保自己构建和发布的应用程序中没有包含他人受保护的知识产权。低代码开发平台是指通过少量代码就可以快速生成应用程序的开发平台。根据Gartner预测，到2025年，70％的应用程序将由低代码和无代码开发平台构建，其中80％的应用程序由非IT工作者开发而成。AI与低代码平台的结合已经成为大势所趋，AI能够大幅降低低代码开发的门槛，大幅加快开发进度。百度智能云推出“Comate”编码智能推荐工具，并正式开放邀请测试。百度集团副总裁侯震宇表示，“Comate”代码助手是基于大模型打造的新一代编码辅助工具，已在百度内部进行了大量测试。测试结果显示，在“Comate”辅助编写的代码中，近50％的建议代码被开发者采纳。据百度内部人士透露，辅助代码撰写是第一阶段的主要产品功能，第二阶段，“Comate”将实现在特定领域、场景的自然语言代码生成，第三阶段将实现全领域的自然语言开发。代码自动补全GitHub Copilot利用机器学习为开发者提供实时代码建议和自动完成https://copilot.github.com/TabNine基于深度学习的代码补全工具，支持多种编程语言https://www.tabnine.com/Kite代码自动补全和智能提示，支持多种编辑器和IDEhttps://www.kite.com/Codota利用机器学习为开发者提供实时代码建议和改进建议https://www.codota.com/Deep TabNineTabNine推出的代码生成模型https://www.tabnine.comBAYOU利用程序分析进行代码自动生成https://www.bayou.cloudPythiaFacebook开源的Python代码生成模型https://github.com/facebookresearch/pythia代码分析与审查DeepCode利用机器学习分析代码，提供实时代码审查和改进建议https://www.deepcode.ai/CodeStream在IDE中集成的协作工具，支持团队共享代码和即时讨论https://www.codestream.com/Sourcery自动化代码重构工具，通过分析代码提供建议并进行自动重构https://sourcery.ai/深度学习工具TensorBoardTensorFlow的可视化工具，用于监控和调试深度学习模型https://www.tensorflow.org/tensorboardSnorkel利用弱监督学习进行数据标注，用于加速训练数据的准备过程https://www.snorkel.org/开发环境与协作Jupyter Notebook交互式计算环境，支持多种编程语言，用于数据分析和机器学习https://jupyter.org/国内产品阿里魔搭中文开源大模型社区，MaaS平台，上面已经跑了1000多个优质AI模型；服务开发者数量160Whttps://www.modelscope.cn/通义灵码阿里旗下的智能编码助手，提供代码智能生成，研发智能问答等功能；https://tongyi.aliyun.com/lingmaCodeGeeX国产免费编程AI助手。提供实时代码建议和智能编程支持https://codegeex.cn/iFlyCode科大讯飞发布的编程新时代的智能助手。能够帮助编写代码、学习新的语言和框架以及更快地调试https://iflycode.xfyun.cn/Comate百度产品，基于文心大模型，可以生成符合实际研发场景的优质代码。提升编码效率，释放“十倍”软件生产力。提供SaaS版https://comate.baidu.com本期就聊到这里，如果您喜欢本文，欢迎点赞、评论和分享哦！更多内容请关注：
+
+
+
+

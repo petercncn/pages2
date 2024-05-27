@@ -1,0 +1,15 @@
+
+
+
+            
+stable diffusion生成抽象的艺术二维码
+          
+
+
+
+
+Stable Diffusion（下称：SD）二维码的生成网络上有很多教程，但其美观性是一个值得商榷的事情。二维码的美观性和功能性可能是一个鱼和熊掌的问题，当然审美更是一个见仁见智的问题。本文更倾向于讨论使用SD实现美观性二维码的途径。||   一些观点在讨论之前我们先看一下被广为流传的两个案例：这两个二维码的功能性得到了很好的保留，即用来定位的三个点在视觉上依然清晰可辨，当它出现在眼前时不需要作出说明就知道这是一个二维码。但这三个点多少有点超现实主义了，这些点在某种程度上破坏了图片想要传达的一些氛围，导致视觉的舒适性被破坏。基于以上观点，那么如何合理地隐藏定位点就成了需要被解决的根本问题。||   生成方法由于需要倾向美观性，即合理的隐藏定位点，因此在用SD生成二维码之前我们需要对二维码的常规特征进行一些必要的变化，这里推荐cli.im或SD的插件qr- toolkit这两个工具。在查找相关资料时看到一个controlnet的QRcode模型，这个模型不需要预处理器，似乎专门为二维码生成进行的预训练的模型。但在实现过程中也遇到了这样那样的问题。在使用这个模型生成二维码之初，生成的二维码扫描和识别均是一个成功概率极低的抽卡事件，但也获得了一些视觉相对比较友好的结果，如下图：这些二维码概率性的可以被扫出，但在微信环境内不能被识别，在iphone的相册里有些生成结果可以被识别。通过对比这些结果发现，能被扫描的二维码在对比度上会更高一些，即暗的部分更暗。在调整了对比度后果然可以正常识别了，但如果每次都需要去调整对比度的话会拉长整个二维码的生成流程。于是开始寻找controlnet预处理器是否可以解决图片对比度问题，在这之后了解到一个brightness的controlnet模型。这个模型也不需要预处理器，通过调整权重和介入退出时间，能很好地解决二维码的明暗分布问题。终于能稳定生成可以被扫描和识别的二维码，如下图：左 | SD生成的一套表情包，右 | 本人微信名片在稳定生成可扫描和可识别的二维码后仍然概率性的出现如一开始所提到的那样，图片环境氛围不能的情况，比如蓝天白云的晴朗天空因为功能的必要性开了一个黑洞等。因此需要生成多个样本进行选择，比如这些黑色的定位点可以是墙壁上的窗户，公交车的挡风玻璃等可以融入环境氛围的合理构成。同时也可以通过上文提到的两个工具（cli.im或SD的插件qr- toolkit）对二维码做出一些弱化定位点的修改。||   一些参数更建议大家通过xyz插件对不同参数进行测试，从而获得比较理想的参数。下述参数不作为复现上述结果的提示。##基础设置（基础设置只会影响风格，负面提示词可以留空）提示词 (prompt)：cyberpunk city负面提示词 (negative prompt)：模型 (base model)：toonyou_beta5Unstable.safetensors生成步数 (steps)：40 - 50采样器：DPM++ 2M SDE Karras##控制 (controlnet) 设置（所有控制单元上传自己的二维码）controlnet unit 0model :control_v1p_sd15_qrcode_monster.safetensors权重1，引导介入结束时间为0-1controlnet unit 1model :control_v1p_sd15_brightness.safetensors权重0.2-0.5，引导介入0.5-0.6直到结束。正如一开始所说，二维码的美观性和功能性可能是一个鱼和熊掌的问题，因此本文所讨论的生成方法得到的二维码只有在标注说明的情况下才能被较容易地认定为二维码，其在营销材料上的传播能力才不会产生可预见的损失。control_v1p_sd15_qrcode_monster.safetensors模型下载链接https://huggingface.co/DionTimmer/controlnet_qrcode-control_v1p_sd15/resolve/main/control_v1p_sd15_qrcode.safetensors配置文件下载链接https://huggingface.co/DionTimmer/controlnet_qrcode-control_v1p_sd15/resolve/main/control_v1p_sd15_qrcode.yamlcontrol_v1p_sd15_brightness.safetensors模型下载链接https://huggingface.co/ViscoseBean/control_v1p_sd15_brightness/resolve/main/control_v1p_sd15_brightness.safetensors配置文件下载链接https://huggingface.co/ViscoseBean/control_v1p_sd15_brightness/resolve/main/control_v1p_sd15_brightness.yaml以上文件下载后放入下面的目录：stable-diffusion-webui/extensions/sd-webui-controlnet/models/编辑/视觉：陈词图源/：陈词、网络_
+
+
+
+

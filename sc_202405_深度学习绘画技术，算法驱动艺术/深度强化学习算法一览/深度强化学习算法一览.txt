@@ -1,0 +1,15 @@
+
+
+
+            
+深度强化学习算法一览
+          
+
+
+
+
+本文主要对常用的深度强化学习算法进行基本的总结，包括在大语言模型中用于人类指令对齐的PPO（Proximal Policy Optimization）算法。这里主要冲Policy Gradient策略梯度算法出发，引出DDPG、TD3、SD3、SAC、PPO这一系列深度强化学习算法。基本定义主要定义状态、动作、奖励函数、策略以及状态转移概率等基本概念。2. 策略梯度（Policy Gradient）Policy Gradient是非常经典的方法，其推导过程如下，主要是通过对轨迹的拆解，直接得到轨迹奖励关于参数的梯度，最终推导的代码实现也非常简单。代码（可以看到损失函数直接是轨迹策略的log求和之后和奖励轨迹相乘）：3. DDPG4. TD3TD3是笔者比较喜欢的算法，其简单直接。出发点在于基于Q-Learning的值函数更新过程中的max操作会导致对值函数有过于乐观的估计，那么这个时候我学习两个独立的Q网络，然后再进行目标构建的时候，选在两个Q网络中输出数值最小的一个来缓解过估计的问题，当然也有文章采用三个Q网络，去平均的方式来缓解欠估计。5. SD3SD3是对于TD3的修改，其也是修改基于Q-Learning的值函数更新过程中max操作位softmax操作，进行平滑。6. SACSAC算法主要是添加了一个策略熵的奖励，熵越大，不确定性越高，即更加鼓励多样性的策略探索。7. PPOPPO算法则惩罚更新后的策略与之前的策略偏移过大，导致学习不稳定的问题。参考文献[1] Marcin Andrychowicz, Anton Raichuk, Piotr Sta´nczyk, Manu Orsini, Sertan Girgin, Raphael Marinier, L´eonard Hussenot, Matthieu Geist, Olivier Pietquin, Marcin Michalski, et al. What matters in on-policy reinforcement learning? a large-scale empirical study. arXiv preprint arXiv:2006.05990, 2020.[2] Scott Fujimoto, Herke Van Hoof, and David Meger. Addressing function approximation error in actor-critic methods. arXiv preprint arXiv:1802.09477, 2018.[3] Dibya Ghosh and Marc G Bellemare. Representations for stable off-policy reinforcement learning. In International Conference on Machine Learning, pages 3556–3565. PMLR, 2020.[4] Tuomas Haarnoja, Aurick Zhou, Pieter Abbeel, and Sergey Levine. Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor.arXiv preprint arXiv:1801.01290, 2018.[5] Timothy P Lillicrap, Jonathan J Hunt, Alexander Pritzel, Nicolas Heess, Tom Erez, Yuval Tassa, David Silver, and Daan Wierstra. Continuous control with deep reinforcement learning. arXiv preprint arXiv:1509.02971, 2015.[6] Ling Pan, Qingpeng Cai, and Longbo Huang. Softmax deep double deterministic policy gradients. Advances in Neural Information Processing Systems, 33, 2020.[7] John Schulman, Philipp Moritz, Sergey Levine, Michael Jordan, and Pieter Abbeel. High-dimensional continuous control using generalized advantage estimation. arXiv preprint arXiv:1506.02438, 2015.[8] John Schulman, Filip Wolski, Prafulla Dhariwal, Alec Radford, and Oleg Klimov. Proximal policy optimization algorithms. arXiv preprint arXiv:1707.06347, 2017.[9] Hado Van Hasselt, Yotam Doron, Florian Strub, Matteo Hessel, Nicolas Sonnerat, and Joseph Modayil. Deep reinforcement learning and the deadly triad. arXiv preprint arXiv:1812.02648, 2018.微信公众号后台回复“资料”获取pdf~
+
+
+
+

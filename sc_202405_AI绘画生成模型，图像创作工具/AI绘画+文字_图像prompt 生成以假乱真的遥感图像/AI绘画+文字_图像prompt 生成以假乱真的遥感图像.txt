@@ -1,0 +1,15 @@
+
+
+
+            
+AI绘画+文字/图像prompt 生成以假乱真的遥感图像
+          
+
+
+
+
+AI+文字/图像 Prompt 生成以假乱真的遥感图像目前的AI 绘画在遥感图像的生成方面表现如何？我们通过目前流行的Midjourney和GPT-4进行了测试。其中包括根据文字提示生成，以及根据已有图像生成。Midjourney：https://www.midjourney.comGPT-4：https://chat.openai.com/1 文字 Prompt我们首先测试了通过文字提示来生成遥感影像：Draw a remote sensing imageMidjourney：GPT-4：2. Draw a satellite image containing farmlandMidjourney：GPT-4:3. Draw a remote sensing image containing buildings Midjourney：这个图看上去很像ISPRS Potsdam 数据集https://www.isprs.org/education/benchmarks/UrbanSemLab/2d-sem-label-potsdam.aspxGPT-4：整体来看，Midjourney的效果更自然。图像Prompt文字：Draw a similar remote sensing image图像：图像来源：DOTA数据集，https://captain-whu.github.io/DOTA/dataset.htmlMidjourney：GPT-4：简单测试看来，Midjouney 的效果比GPT-4要好一些。关于Midjourney的使用，可参考：Midjourney AI绘画魔法：配置及使用详解对于GPT-4，OpenAI已经将DALL-E整合到了ChatGPT中，所以订阅了GPT-4的用户可以直接使用。  欢迎关注  分享遥感与深度学习领域的技术、论文、书籍、新鲜事。
+
+
+
+

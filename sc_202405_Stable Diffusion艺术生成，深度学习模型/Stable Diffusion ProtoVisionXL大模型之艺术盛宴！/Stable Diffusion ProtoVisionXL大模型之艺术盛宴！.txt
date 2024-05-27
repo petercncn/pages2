@@ -1,0 +1,15 @@
+
+
+
+            
+Stable Diffusion ProtoVisionXL大模型之艺术盛宴！
+          
+
+
+
+
+hello，大家好，我是老徐，热爱AI，一路同行，与你相伴~喜欢的可以关注老徐，在文章底部添加老徐微信，加入老徐AI绘画交流群。老徐之前给大家推荐过ProtoVisionXL这款大模型《Stable Diffusion 万能渲染！摄影级高保真3D/真实感 / 动漫 / 超现实主义大模型ProtoVisionXL》，不知道有没有在实测使用。该款模型不光在写实，人像，动漫等方面表现不错。在的作品方面也往往能给你带来意想不到的惊喜。今天老徐基于ProtoVisionXL这款大模型为大家呈现一些视觉上的艺术盛宴,视觉冲击宣传海报信手拈来，再配上你的宣传语，妥妥地让人眼前一亮。老徐实测参数：分辨率：768*1024采样方法 (Sampler)：DPM++ 2M Karras迭代步数 (Steps)：30提示词引导系数 (CFG Scale)：7逆向提示词：low quality,low resolution,blemishes,bad quality,poor quality,defect,1. “桃汁”妖妖（提示词中的水果名称可自行更换）:提示词：portal,peach drink glass,swirl,splashes,waves,close-up,masterpeace,fluid,flora,glowing colors,pearl,magic,传送门，桃饮料杯，漩涡，飞溅，波浪，特写，大师级和平，流体，植物群，发光的颜色，珍珠，魔法，2. “莓”你不行:提示词：the strawberry dessert in plate on table, inside swirl splashes waves,  close-up, masterpiece, fluid, flora, pearl, gold, luxurious桌子上盘子里的草莓甜点，里面漩涡飞溅的波浪，特写，杰作，流体，植物，珍珠，金色，奢华3. “啡”你不可:提示词：the Coffee cup, inside grow Coffee  made of Coffee beans, pearl, gold, luxurious, ral-3dwvz, motion, dynamic, swirl, splashes,  close-up, masterpiece咖啡杯，内部种植咖啡豆制成的咖啡，珍珠，金色，奢华，ral-3dwvz，运动，动态，漩涡，飞溅，特写，杰作4. 香水有毒:提示词：parfum bottle,in the style of a product hero shot in motion,dynamic,illumination,close-up,masterpeace,fluid,flora,waves,muted colors,swirl,splashes,pearl,gold,luxurious,masterpeace,extremely detailed,香水瓶，在运动中拍摄的产品英雄的风格，动态，照明，特写，masterpeace，流体，植物群，波浪，柔和的颜色，漩涡，飞溅，珍珠，金色，奢华，masterpeace，极其详细5. “冰”心艺“料”:提示词：iced drink,in the style of a product hero shot in motion,dynamic,masterpeace,extremely detailed,iced,冰镇饮料，以产品英雄的风格在运动中拍摄，动态，大师级的和平，极其详细，冰镇6. 璀璨珠华提示词：Open clam shells, pearls,in the style of a product hero shot in motion,dynamic,extremely detailed,swirl,splashes,close-up,masterpiece,打开的蚌壳，珍珠，以产品英雄的风格在运动中拍摄，动态，极其详细，漩涡，飞溅，特写，杰作，好了今天的分享就到这里了，感兴趣的可以去试试哦。最后，感谢每一位阅读我文章的朋友，如果你觉得文章不错，请随手点赞、在看、转发吧，也欢迎你给个星标⭐，以便第一时间收到我的推送。感谢大家的一路陪伴，希望我们共同见证一个充满希望和机遇的未来。关注老徐不迷路，老徐经常会分享一些干货内容喜欢老徐的可以加微交流——【老徐AI绘画】
+
+
+
+

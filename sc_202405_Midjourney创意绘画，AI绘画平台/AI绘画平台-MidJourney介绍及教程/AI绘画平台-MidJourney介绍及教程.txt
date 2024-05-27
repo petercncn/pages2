@@ -1,0 +1,15 @@
+
+
+
+            
+AI绘画平台-MidJourney介绍及教程
+          
+
+
+
+
+✦基本介绍✦✦✦✦✦地址：https://www.midjourney.com/home/收费情况：新用户可免费使用25次版权情况：免费用户无版权，可复制分享，不可商业使用，付费用户可商业使用速度：一分钟左右语言：英文备注：需要科学上网MidJourney收费详情目前MidJourney生成一张图像需要1分钟左右的时间，基础会员每月大概只能使用200次，标准会员和企业在快速生成使用结束后可以进行排队使用，速度会慢很多。MidJourney目前是部署在discord上，作为公共的人工智能绘画聊天机器人，因此生成的图像是公开可见的，需要购买私人可见性套餐才能避免他人可见。✦使用教程✦MidJourney01MidJourney目前是部署在discord上，作为公共的人工智能绘画聊天机器人，因此需要先注册登录discord平台 平台地址：https://discord.com/MidJourney02登录进入discord，在左侧找到MidJourney图标，点击进入newbies roomMidJourney03在正下方就可以给MidJourney机器人发消息了MidJourney04输入/imagine prompt + 你对画的描述，越精准越好，点击发送MidJourney05每次MidJourney会生成四张符合你描述的画作，点击u+序号，会展示相应序号绘画的高清版，点击v+序号，会根据第几张进一步进行创作。MidJourney06根据第四张画继续继续绘画出的四张新画生成的高清图片✦作品展示✦AI ！元宇宙 一起玩点新东西
+
+
+
+

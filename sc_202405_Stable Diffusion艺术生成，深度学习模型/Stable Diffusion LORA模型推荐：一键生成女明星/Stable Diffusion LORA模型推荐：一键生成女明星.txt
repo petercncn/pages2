@@ -1,0 +1,15 @@
+
+
+
+            
+Stable Diffusion LORA模型推荐：一键生成女明星
+          
+
+
+
+
+Stable Diffusion LORA模型推荐：先看成果细节处理的非常到位，皮肤细腻入微，五官精致，和女明星相似度98.7%一般人看不出这是由AI生成的。模型下载地址放到末尾原文链接了————————————————————————介绍一下sd-web-ui版本号和lora参数SD-WebUI版本: c9c8485lora参数：girl's bedroom,kneeing on bed,full_body{{1girl, solo,cute,skinny,Sukumizu:1.3}}earrings,long hair,, portrait, realistic, looking at viewer,, dress, lips,,(best quality, masterpiece:1.2),(realistic, photo-realistic:1.37), professional lighting, photon mapping,,  Negative prompt: NSFW,paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot,,bad anatomy, low-res,, bad anatomy,poorly drawn face, disfigured hands, poorly drawn eyebrows, bad body perspective, animal tail, poorly drawn legs, wrong perspective legs, (bad-hands-5:1.45), (too many fingers:1.65), (wrong side hands:1.03), poorly drawn hands,, paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot,,Steps: 20, ENSD: 31337, Size: 512x696, Seed: 3079604809, Model: chilloutmix_NiPrunedFp32Fix, Sampler: DPM++ SDE Karras, CFG scale: 2, Clip skip: 2, Model hash: fc2511737a, Hires steps: 13, Hires upscale: 2, Hires upscaler: ESRGAN_4x, Denoising strength: 0.14复制框内代码，导入sd软件即可生成还可以根据需要，更换衣服，首饰，动作以及背景《下一期分享Yang幂模型》，喜欢的点👍！
+
+
+
+

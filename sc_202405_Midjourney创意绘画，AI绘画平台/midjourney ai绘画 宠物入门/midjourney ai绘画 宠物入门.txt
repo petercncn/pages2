@@ -1,0 +1,15 @@
+
+
+
+            
+midjourney ai绘画 宠物入门
+          
+
+
+
+
+ Midjourney是一款超酷的AI绘画工具，它能让艺术家和设计师用全新的方法创作出惊艳的作品。这个教程会手把手教你，从零开始，用Midjourney做出你想要的艺术大作。随着AI绘画技术的兴起，设计师的技能要求正在发生变化。无论是互联网巨头还是传统企业，AI都在推动设计领域的一场革命。那么，我们来聊聊目前设计界流行的AI互动软件有哪些？首先，Midjourney是一个国外开发的AI绘画软件，虽然价格不菲，每月大约30美元（拼团共享版每月60元），但它对电脑硬件要求不高，只需用文字描述就能创作出很棒的作品。第二个是stable diffusion，这是一个开源的AI绘画软件，虽然学习起来有点难度，但社区活跃，有很多高手在里面开发模型和插件，它是完全免费的，并且持续更新，非常适合商业应用。第三个是Adobe Firefly的萤火虫，它直接集成在Photoshop中，通过文字描述就能在PS里生成AI作品。AI绘画在设计中能做什么？我们经常在网上看到的卡通头像，用描述词就能轻松快速地设计出来。AI不仅能画人物和头像，还能做更多。比如，LOGO设计，只需一段文字描述，AI就能帮你生成一个漂亮的LOGO作品。AI绘画的潜力无限，让我们一起探索它的更多可能性吧！我今天分享一些在宠物拟人的实现咒语与效果。可爱的骑着青桔单车的小Puppy,咒语如下:The puppy in the world,this puppy is wearing light colored T-shirts,riding a bike on the road,it has beautiful eyes,anthropomorphic,photo real,classic composition,masterpiece,exquisite,color correction,amazing visual effects,crazy details,intricate details,sharp focus,HD,8k, --ar 3:4 --v 6.0
+
+
+
+

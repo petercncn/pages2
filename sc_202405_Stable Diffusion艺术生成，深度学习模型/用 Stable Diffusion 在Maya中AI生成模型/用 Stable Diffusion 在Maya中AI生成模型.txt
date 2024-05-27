@@ -1,0 +1,15 @@
+
+
+
+            
+用 Stable Diffusion 在Maya中AI生成模型
+          
+
+
+
+
+Hello . 大家好，我是王掌柜今天给大家带来外网的一篇用SD插件生成模型的分享1视频演示今天带来的是一位油管大佬在maya中接入SD AI 插件生成3D模型的制作演示，功能尚不全面，大佬还在研发中，有兴趣的朋友可以留意文章后的网站连接目前该插件的名称为Mandala。不多说，直接上演示视频· 作者elasticmonkeys的Demo1演示视频：· 作者elasticmonkeys的Demo2演示视频：· 作者elasticmonkeys的Demo1演示视频：2关于SD AI 3D建模的一些新动向首先呢，最受CG从业人员关注的当然是2D图片能否用AI一键转3D模型的问题，当然目前方案和效果并不完美，瑕疵很多，但是可以看出较之之前有长足进步，以下有个小视频可以科学上网关注下：https://www.youtube科学.com/watch?v=Wf-OmHyFduo上网其次Stable Diffusion利用AI算法将2D头像图片生成3D模型上做出诸多尝试，详细可留意官网。2相关资产链接原视频地址原视频网址：https://www.you科学tube.com/@elasticmonkeys4091上网插件资产下载网址：https://www.elasticMonkeys.com- End -   ABOUT US 关于我们微信群公众号知识店铺喜欢Thepoly的可以通过三种方式与我们建立联系。分别是公众号、微信群以及QQ群。公众号是我们最为官方的窗口，更多内容都必须关注公众号后才能获取。另外现已开通网站：www.thepoly.cn更多精彩请关注我们。
+
+
+
+

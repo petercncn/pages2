@@ -1,0 +1,15 @@
+
+
+
+            
+AI绘画 Midjourney 基础知识
+          
+
+
+
+
+写在最前面，本篇是我之前分享过的一个PPT 的优化和完善，适合对 AI 绘画感兴趣想要了解 AI 绘画尤其是对 Midjourney 这款模型感兴趣的人。没做成视频是因为我觉得文字的形式更容易积累和快速查看。相信很多人之前都看过这张《太空歌剧院》by Jason Allen ，Midjourney生成，Photoshop 润色。2022年8月，美国科罗拉多州举办艺术博览会，数字艺术类别冠军。这张图当时争议还是蛮大的，现在争议一直存在，但无论怎样，AI 时代已经势不可挡的来了，未来人人都是设计师，人人都可以通过AI 呈现出自己的风格，未来淘汰的不是艺术家或设计师，而是不懂 AI 的人。本篇从以下 4方面简单分享：Midjourney 简介Midjourney 可以做什么AI 成图原理及Midjourney简单操作网址推荐 AI无损提高图片质量和 Midjourney 关键词推荐‍‍‍‍‍‍‍‍‍Midjourney 简介Midjourney 是一个数字图像处理模型（AI 智能绘画）。它的算法基于 GPT-3.5 模型，通过神经网络算法驱动。产品形态是一段代码。开发公司是一个独立的研究实验室，目前对外公开有11位员工和4位顾问，未融过资。已经找到自己的商业模式-付费。2022年7月12对外公测（比前面那张「太空歌剧院」早了一个月），目前公开的有8个版本。Midjourney 版本设置展示settings 截图如下目前的版本：MJ1，MJ2，MJ3，MJ4，MJ5，MJ5.1，niji4，niji5，通过点选或命令 /settings切换，缩写 --v1、niji4。‍‍Style low、 Style med、 Style hight、 Style very high 越低生成图越具像，越高AI 越放飞自我，数值范围在0～1000 之间。Public mode 公开模式生成图片全网可见，Fast mode 快速生图片模式付费价格不同数量不同，Remix mode 选中后生成图片可修改关键字。 RAW Mode 仅只是V 5.1状态下，选中的效果更简洁。Midjourney 近似版本对比--v1、--v2、--v3 版本效果偏抽象--v4、--v5、--v5.1 偏写实风格Niji4、niji 5 卡通二次元风格和配色Midjourney 可以做什么？来看看 Slogan：致力于探索新的思维方式，并扩展人类的想象力。个人感觉写的还是非常贴切，具体请看下面的案例。‍‍‍‍‍‍‍模仿艺术家风格模仿不同风格和材质模仿相机拍摄模仿C4d、3D效果模仿设计模仿包装AI 成图原理，2种（或更多种）算法互相成就上图来自网络，我仅加了标注希望能通过描述更直观，每次成图是2中或更多不同维度的算法模型相互配合给出四张图。上面两个模型一个负责理性，尽量还原关键词，一个负责感性，在理性的基础上放飞自我。‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍‍上图来自网络，生成过程就是 AI 在不断的降低噪点清晰事物边界的过程。‍如何玩 Midjourney具体操作：注册 Discord 账号（免费）且登录 https://discord.com注册 Midjourney 账号 https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F再回到 Midjourney 官网首页找到「 Join the Beta 」点进去，接受邀请。创建自己的服务器，邀请Midjourney 进来，可以开始玩啦，新用户可免费体验 0.4 小时，还想多体验需要根据实际情况付费。‍‍Midjourney 指令格式Midjourney 常见咒语解读一段相对完整的魔法：https://cdn.discordapp.com/attachments/1104043475340632187/1111119494220365924/2023-05-25_10.31.30.png The cutest furry alien ever seen on the planet Axen from the Andromeda galaxy. The eyes are so cute and innocent that they make you swoon. The fur is blue:: , soft and has a blue glow. Stand on the grass, in a lush alien world. --ar 4:7 --q 2 --s 750 --v 4 --c 2绿色：给的参考图片链接（需先上传再生成）紫色：文本描述橙色：参数设置--ar 4:7 表示图片的宽高比例，数字可以任意修改，也可删掉，默认图片1:1； --q 2 图片质量，数值范围在1～25，1细节最多，25最平滑。--s 750 图文匹配性，数值范围 0～1000，0和文本匹配性最高，1000匹配性最低AI 发挥的空间最大。--v 4 当前生成图片的版本号。--c 2 混沌值 AI创意性，范围 0～100，默认是0，越接近100生成图差异越大。:: 强调前一个单词，例如 hot dog AI会不知道是很热的狗还是食物， hot:: dog 强调热，指食物。网站推荐AI 无损放大图片质量：https://bigjpg.com/风格提示词：https://www.midlibrary.io/styles最后关于 Midjourney 我也在不断的学习中，如果有任何说的不对的地方欢迎指出，互相学习共同成长，未来还会陆续出一些 AI相关的文章，静请期待。如果你想在 AI 浪潮中站稳脚步，并在未来的竞争中占领优势，现在就开始行动咯～-END-
+
+
+
+

@@ -1,0 +1,17 @@
+
+
+
+            
+使用Stable Diffusion生成艺术二维码
+          
+
+
+
+
+在数字艺术的世界中，二维码已经从单纯的信息承载工具转变为可以展示艺术表达的媒介。这是通过使用Stable Diffusion的技术实现的，它可以将任何二维码转化为独特的艺术作品。接下来，我们将一步步教你如何使用Stable Diffusion生成艺术二维码。需要的工具你需要一款名为AUTOMATIC1111 Stable Diffusion GUI的软件，它可以在Google Colab、Windows或Mac上使用。你还需要安装一个名为ControlNet的扩展程序。生成二维码你首先需要一个二维码。为了提高成功的几率，你需要使用满足以下条件的二维码生成器：使用高容错率设置（30%）。二维码周围有白色边距（静音区）。使用最基本的黑白方块填充。避免使用在黑色元素之间引入细白线的生成器。使用Stable Diffusion装饰二维码使用Stable Diffusion装饰二维码的方法开始于使用"文生图"生成一个类似于二维码的图像。但这不足以生成有效的二维码。在取样步骤中，会开启ControlNet来将二维码印在图像上。在取样步骤接近结束时，会关闭ControlNet以提高图像的一致性。以下是具体步骤：在AUTOMATIC1111 WebUI中，导航到"文生图"页面。选择一个检查点模型，我们将使用revAnimated。输入一个提示和一个负面提示。这个提示对你的成功非常重要。一些提示会自然地融入你的二维码。正面：Full Photo shot of a lion, Yoji Shinkawa style, Jean-baptiste Monge, general plan, central composition, entirely on a sheet, Ink painting, expressive painting, watercolor, bold brushstrokes, Concept art, orange, (purple:1.2), gray and white, stylize, intricate detail, 8k, transparent background, (white background:1.4), 3D vector负面：Watermark, Text, censored, deformed, bad anatomy, disfigured输入以下图像到图像设置。将二维码上传到ControlNet的图像画布。输入以下ControlNet设置。Control Weight（控制权重）：降低这个参数值，出图结果更偏向提示词
+Starting Control Step：增加这个参数值，出图结果更偏向提示词
+Ending Control Step：降低这个参数值，ControlNet会提前结束。如果您希望QR码和图像更自然地融合，则可以将其减少。这个过程可能需要一些尝试，因为并不是每个图像都能生成一个功能性的二维码。成功率大约是四分之一，你可能需要生成更多的图像并检查哪些是可保留的。结语使用Stable Diffusion生成艺术二维码是一个有趣且富有创意的过程，它将艺术与技术相结合，为我们提供了一种全新的方式来表达和传递信息最后跑出来的结果就是这样的了！哈哈~
+
+
+
+

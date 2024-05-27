@@ -1,0 +1,15 @@
+
+
+
+            
+Stable Diffusion ProtoVisionXL大模型的艺术盛宴！
+          
+
+
+
+
+大模型:ProtoVisionXL,可以画出非常有艺术感的图下.C站：https://civitai.com/models/125703liblib：https://www.liblib.art/modelinfo/3a3d10aa7fe644158c08a5a43da358db实测参数：分辨率：768*1024,采样方法 (Sampler)：DPM++ 2M Karras,迭代步数 (Steps)：30,提示词引导系数 (CFG Scale)：7,逆向提示词：low quality,low resolution,blemishes,bad quality,poor quality,defect,1. 桃（提示词中的水果名称可自行更换）:提示词：portal,peach drink glass,swirl,splashes,waves,close-up,masterpeace,fluid,flora,glowing colors,pearl,magic,2. 草莓:提示词：the strawberry dessert in plate on table, inside swirl splashes waves,  close-up, masterpiece, fluid, flora, pearl, gold, luxurious3. 咖啡:提示词：the Coffee cup, inside grow Coffee  made of Coffee beans, pearl, gold, luxurious, ral-3dwvz, motion, dynamic, swirl, splashes,  close-up, masterpiece4. 香水:提示词：parfum bottle,in the style of a product hero shot in motion,dynamic,illumination,close-up,masterpeace,fluid,flora,waves,muted colors,swirl,splashes,pearl,gold,luxurious,masterpeace,extremely detailed,香水瓶，在运动中拍摄的产品英雄的风格，动态，照明，特写，masterpeace，流体，植物群，波浪，柔和的颜色，漩涡，飞溅，珍珠，金色，奢华，masterpeace，极其详细5. 冰饮:提示词：iced drink,in the style of a product hero shot in motion,dynamic,masterpeace,extremely detailed,iced,冰镇饮料，以产品英雄的风格在运动中拍摄，动态，大师级的和平，极其详细，冰镇6. 珍珠提示词：Open clam shells, pearls,in the style of a product hero shot in motion,dynamic,extremely detailed,swirl,splashes,close-up,masterpiece,打开的蚌壳，珍珠，以产品英雄的风格在运动中拍摄，动态，极其详细，漩涡，飞溅，特写，杰作，7. 红酒提示词：Red wine glass, red wine made from growing the inside of grapes, glass, glowing color, pearl, wine red, luxury, ral-3 dw vz, sports, dynamic, whirlpool, splash, feature, masterpiece红酒杯，内部种植葡萄制成的红酒，玻璃，发光的颜色，珍珠，酒红色，奢华，ral-3dwvz，运动，动态，漩涡，飞溅，特写，杰作8。青苹果，平安无事：提示词：Melting green apple made in the golden splash technique; very tasty,elegant,award-winning photography,original,intricate,very attractive,beautiful dynamic lighting wallpaper,award-winning,fantastic view,stunning bright ripe apple,waves splashing inside a whirlpool,close-up,masterpiece,flowing,golden,luxurious,magic,tornado,nebula,motion dynamics,whirlpool,splashes,gold,close-up,masterpiece,extremely detailed,golden,luxurious,9。李子：Melt plums with golden splash technology; very delicious, elegant, winning, photography, original, complex, complex, very attractive, beautiful lighting wallpaper, dynamic lighting, wonderful vision, stunning bright, mature, plum, waves splashed in swirls, feature, masterpiece, flow, gold, gold, luxury, magic, tornadoes, nebula, motion dynamics, vortex, splash, splash, gold, feature, masterpiece, extremely detailed, gold, luxurious,提示词：用金色飞溅技术融化的李子；非常美味，优雅，获奖的摄影，原创，复杂，复杂的，非常吸引人，美丽的动态照明壁纸，获奖，奇妙的视野，令人惊叹的明亮成熟的李子，波浪溅在漩涡，特写，杰作，流动，金色，豪华，魔术，龙卷风，星云，运动动力学，漩涡，飞溅，黄金，特写，杰作，极其详细，金色，豪华，太美了。关注不迷路，经常会分享一些干货内容
+
+
+
+

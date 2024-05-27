@@ -1,0 +1,15 @@
+
+
+
+            
+Stable Diffusion【艺术特效】【霓虹灯】： 霓虹灯玻璃艺术特效
+          
+
+
+
+
+提示词molten glass art of a [SUBJECT], glowing in [NEON COLOR], creating bold [SILHOUETTE] silhouettes, pure black background[主题]的熔融玻璃艺术，在[霓虹灯颜色]中发光，创造大胆的[剪影]轮廓，纯黑色背景参数设置大模型：万享XL_超写实摄影V8.2采样器：Euler a采样迭代步数：25CFG：3反向提示词：NSFW,EasyNegative,badhandv4,ng_deepnegative_v1_75t,16-token-negative-deliberate-neg,bad_prompt_version2,ugly,deformed,bad anatomy,low quality,模型下载地址（文末网盘地址也可获取）LiblibAI: https://www.liblib.art/modelinfo/b27d7c6bd9184acfbfefd2a89909c6d3Prompt：‍Molten glass art of a galloping horse,glowing in neon brown,creating bold muscular silhouettes,pure black background提示词：一匹奔驰的马的熔融玻璃艺术，在霓虹棕色中发光，创造出大胆的肌肉轮廓，纯黑色的背景Prompt：Molten glass art of a flying Phoenix,glowing in neon red,creating bold winged silhouettes,pure black background提示词：熔融玻璃艺术的飞行凤凰，发光的霓虹红色，创造大胆的翅膀轮廓，纯黑色的背景Prompt：Molten glass art of a serene swan,glowing in neon orange,creating bold feathered silhouettes,pure black background提示词：一只宁静的天鹅的熔融玻璃艺术，在霓虹橙色发光，创造大胆的羽毛轮廓，纯黑色的背景Prompt：Molten glass art of a mysterious owl, glowing in neon yellow, creating bold nocturnal silhouettes, pure black background提示词：一只神秘的猫头鹰的熔融玻璃艺术，在霓虹黄色发光，创造大胆的夜间轮廓，纯黑色的背景Prompt：Molten glass art of a swimming goldfish,glowing in neon red,creating bold scales silhouettes,pure black background提示词：一只游动的金鱼的熔融玻璃艺术，闪烁着霓虹红色，创造出大胆的鳞片轮廓，纯黑色的背景Prompt：Molten glass art of a ferocity cheetah,glowing in neon orange,creating bold leopard print silhouettes,pure black background提示词：一只凶猛的猎豹的熔融玻璃艺术，在霓虹橙色中发光，创造出大胆的豹纹剪影，纯黑色背景好了，今天的分享就到这里了，希望今天分享的内容对大家有所帮助。模型放在网盘里，感兴趣的小伙伴自取！https://pan.quark.cn/s/b3df771404e2END公众号精选内容Stable  Diffusion技术1: 基础篇 | 进阶篇 | 插件篇 | ControlNet | 应用篇Stable  Diffusion技术2: SD工具| SDXL | Stable Cascade | SD3Stable Diffusion模型：大模型 | LORA模型 | 提示词 | 艺术风格|艺术特效AI绘画工具：AI绘画工具 | AI图片工具 | AI视频工具 | AI音频工具
+
+
+
+

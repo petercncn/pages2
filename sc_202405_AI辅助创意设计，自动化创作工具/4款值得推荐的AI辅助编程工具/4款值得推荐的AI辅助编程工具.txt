@@ -1,0 +1,16 @@
+
+
+
+            
+4款值得推荐的AI辅助编程工具
+          
+
+
+
+
+前言在这个AI迅速发展的阶段，涌现出了一大批好用的AI辅助编程工具。AI辅助编程工具能够提高开发效率、改善代码质量、降低bug率，是现代软件开发过程中的重要助手。今天大姚给大家分享4款AI辅助编程工具（并且都支持C#语言），希望对大家有所帮助。AI辅助编程工具以下四个AI辅助编程工具都已收录到DotNetGuide中，假如你有更好的推荐欢迎文末留言或者RP。https://github.com/YSGStudyHards/DotNetGuideGitHub CopilotGitHub Copilot 是一款 AI 编码助手，可帮助你更快、更省力地编写代码，从而将更多精力集中在问题解决和协作上。GitHub Copilot 会在你编码时提供建议：有时是当前行的补全，有时是全新的代码块。可以接受全部或部分建议，也可以忽略建议并继续键入。https://github.com/features/copilot支持语言支持Python、JavaScript、TypeScript、Ruby、Go、C# 和 C++等多种语言。支持工具Visual Studio、Visual Studio Code、Azure Data Studio、JetBrains IDEs、Vim/Neovim。CodeGeeXCodeGeeX是一款基于大模型的智能编程助手，它可以实现代码的生成与补全、自动为代码添加注释、自动解释代码、自动编写单元测试、实现代码审查Code Review、自动修复代码fixbug、自动生成commit message完成git提交，以及在不同编程语言的代码间实现互译、针对技术和代码问题的智能问答等丰富的功能。https://codegeex.cn/支持语言支持Python、Java、C#、C++/C、JavaScript、Go等多种语言。支持工具Visual Studio Code、JetBrains IDEs、Visual Studio、HBuilderX、DeepIn-IDE等。Fitten CodeFitten Code是由非十大模型驱动的AI编程助手，它可以自动生成代码，提升开发效率，帮您调试Bug，节省您的时间。还可以对话聊天，解决您编程碰到的问题。https://code.fittentech.com/支持语言支持javascript, markdown, java, json, php, python, csharp, typescript, html, c, cpp, yaml, zig, go, ruby, css, kotlin, shell等80多种语言。支持工具Visual Studio、Visual Studio Code、JetBrains IDEs、Vim。CodeWhispererCodeWhisperer是亚⻢逊出品的一款基于机器学习的通用代码生成器，可实时提供代码建议。
+在编写代码时，它会自动根据我们现有的代码和注释生成建议。从单行代码建议到完整的函数，它可为我们提供各种大小和范围的个性化建议。https://aws.amazon.com/cn/codewhisperer/支持语言支持Python、Java、C#、JavaScript、Typescript等15种编程语言。支持工具VS Code、IntelliJ IDEA、Visual Studio（预览版）、AWS Cloud9、AWS Lambda 控制台、JupyterLab 和 Amazon SageMaker Studio。免费开源的程序员简历模板了解作者&获取更多学习资料程序员常用的开发工具软件推荐加入DotNetGuide技术社区交流群C#/.NET/.NET Core推荐学习书籍C#/.NET/.NET Core学习视频汇总.NET/.NET Core ORM框架资源汇总ASP.NET Core开发者学习指南路线图C#/.NET/.NET Core面试宝典（基础版）C#/.NET/.NET Core优秀项目和框架推荐C#/.NET/.NET Core学习、工作、面试指南学习是一个永无止境的过程，你知道的越多，你不知道的也会越多，在有限的时间内坚持每天多学一点，你一定能成为你想要成为的那个人。不积跬步无以至千里，不积小流无以成江河！！！See you next good day
+
+
+
+
